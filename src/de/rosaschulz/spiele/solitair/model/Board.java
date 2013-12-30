@@ -39,6 +39,7 @@ public class Board {
 	// History
 	MoveHistory moveHistory;
 	private Stack<Collection<Move> > possibleMovesStack;
+	private long[] lineUpIdHistory = new long[GeneralField.FIELD_COUNT];
 	
 	// solution model
 	public int bestResult;
@@ -81,7 +82,9 @@ public class Board {
 		setStart();
 	}
 
-
+	public long getLineUpId() {
+		return currentLineUpId;
+	}
 
 	private static LinkedList<Move> getGeneralMovesFrom(Coordinate from) {
 		final Richtung[] richtungen = Richtung.values();
@@ -183,7 +186,8 @@ public class Board {
 		// System.out.println("doMove: possibleMoves="+possibleMoves);
 
 		assert(turnNumber == possibleMovesStack.size());
-
+		
+		setLineUpId();
 	}
 
 	public void undoMove() {
@@ -195,6 +199,8 @@ public class Board {
 		lineUp.set(move.toIdx, false);
 		
 		possibleMoves = possibleMovesStack.pop();
+		currentLineUpId=lineUpIdHistory[turnNumber];
+		lineUpIdHistory[turnNumber+1]=-1;
 	}
 
 	private void setFeld(Coordinate koordinate, boolean value) {
@@ -351,7 +357,7 @@ public class Board {
 	private void addMovesFrom(Collection<Move> result, int fromIdx) {
 		GeneralField fromField = GeneralField.getAt(fromIdx);
 		if(lineUp.get(fromIdx)) {
-			for (Move move : fromField.toMoves) {
+			for (Move move : fromField.fromMoves) {
 				if(lineUp.get(move.midIdx) && !lineUp.get(move.toIdx)) {
 					result.add(move);
 				}
@@ -447,12 +453,29 @@ public class Board {
 		lineUp.start();
 		moveHistory = new MoveHistory();
 		possibleMovesStack = new Stack<Collection<Move> >();
-		possibleMoves = getAllMoves();
+		
 		turnNumber = 0;
+		setLineUpId();
+		possibleMoves = getAllMoves();
 		
 		assert(possibleMoves.size()==4);
 		assert(getSteineZahlFromZugNummer()==32);
 		assert(countSteine()==32);
+	}
+
+	private void setLineUpId() {
+		currentLineUpId=getLineUpID(lineUp);
+		lineUpIdHistory[turnNumber]=currentLineUpId;
+	}
+
+	public void parse(String boardString) {
+		setStart();
+		lineUp.parse(boardString);
+		// moveHistory will stay empty
+		// possibleMovesStack will stay empty
+		possibleMoves = getAllMoves();
+		turnNumber = 32 - countSteine();
+		setLineUpId();
 	}
 
 }
