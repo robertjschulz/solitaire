@@ -1,0 +1,270 @@
+trying to solve solitair
+
+start board:
+  XXX  
+  XXX  
+XXXXXXX
+XXXOXXX
+XXXXXXX
+  XXX  
+  XXX  
+
+solving...
+
+Zug Nr. 31:
+  OOO  
+  OOO  
+OOOOOOO
+OOOXOOO
+OOOOOOO
+  OOO  
+  OOO  
+Zug Nr. 30:
+  OOO  
+  OOO  
+OOOOOOO
+OOOOXXO
+OOOOOOO
+  OOO  
+  OOO  
+Zug Nr. 29:
+  OOO  
+  OOO  
+OOOOOOO
+OOOOOXO
+OOOOXOO
+  OOX  
+  OOO  
+Zug Nr. 28:
+  OOO  
+  OOO  
+OOOOOOO
+OOOOOXO
+OOXXOOO
+  OOX  
+  OOO  
+Zug Nr. 27:
+  OOO  
+  OOO  
+OOOOOOO
+OOOOXXO
+OOXXXOO
+  OOO  
+  OOO  
+Zug Nr. 26:
+  OOO  
+  OOX  
+OOOOXOO
+OOOOOXO
+OOXXXOO
+  OOO  
+  OOO  
+Zug Nr. 25:
+  OOO  
+  OOX  
+OOOOOXX
+OOOOOXO
+OOXXXOO
+  OOO  
+  OOO  
+Zug Nr. 24:
+  OOO  
+  OOX  
+OOOOOXO
+OOOOOXX
+OOXXXOX
+  OOO  
+  OOO  
+Zug Nr. 23:
+  OOO  
+  OOX  
+OOOXXOO
+OOOOOXX
+OOXXXOX
+  OOO  
+  OOO  
+Zug Nr. 22:
+  OOO  
+  OOX  
+OOOXOXX
+OOOOOXX
+OOXXXOX
+  OOO  
+  OOO  
+Zug Nr. 21:
+  OOO  
+  OOX  
+OOOXOXX
+OOOOOXX
+OOXXOOX
+  OOX  
+  OOX  
+Zug Nr. 20:
+  OOO  
+  OOX  
+OOOXOXX
+OOOOOXX
+OOXOXXX
+  OOX  
+  OOX  
+Zug Nr. 19:
+  OOO  
+  OOO  
+OOOXXXX
+OOOOXXX
+OOXOXXX
+  OOX  
+  OOX  
+Zug Nr. 18:
+  OOX  
+  OOX  
+OOOXOXX
+OOOOXXX
+OOXOXXX
+  OOX  
+  OOX  
+Zug Nr. 17:
+  OOX  
+  OOX  
+OXXOOXX
+OOOOXXX
+OOXOXXX
+  OOX  
+  OOX  
+Zug Nr. 16:
+  OOX  
+  OOX  
+OXOXXXX
+OOOOXXX
+OOXOXXX
+  OOX  
+  OOX  
+Zug Nr. 15:
+  OOX  
+  OOX  
+OXOXXXX
+OOOOXXX
+XXOOXXX
+  OOX  
+  OOX  
+Zug Nr. 14:
+  OOX  
+  OOX  
+OXOXXXX
+OOOOXXX
+XOXXXXX
+  OOX  
+  OOX  
+Zug Nr. 13:
+  OOX  
+  OOX  
+OXOXXXX
+OOOOXXX
+XOXOXXX
+  OXX  
+  OXX  
+Zug Nr. 12:
+  OOX  
+  OOX  
+OXOOXXX
+OOOXXXX
+XOXXXXX
+  OXX  
+  OXX  
+Zug Nr. 11:
+  OOX  
+  OOX  
+OOXXXXX
+OOOXXXX
+XOXXXXX
+  OXX  
+  OXX  
+Zug Nr. 10:
+  OXX  
+  OXX  
+OOXOXXX
+OOOXXXX
+XOXXXXX
+  OXX  
+  OXX  
+Zug Nr. 9:
+  OXX  
+  OXX  
+XXOOXXX
+OOOXXXX
+XOXXXXX
+  OXX  
+  OXX  
+Zug Nr. 8:
+  OXX  
+  OXX  
+XOXXXXX
+OOOXXXX
+XOXXXXX
+  OXX  
+  OXX  
+Zug Nr. 7:
+  OXX  
+  OXX  
+XOXXXXX
+OOOXXXX
+XOOXXXX
+  XXX  
+  XXX  
+Zug Nr. 6:
+  OXX  
+  OXX  
+XOXXXXX
+OOOXXXX
+OXXXXXX
+  XXX  
+  XXX  
+Zug Nr. 5:
+  XXX  
+  XXX  
+XOOXXXX
+OOOXXXX
+OXXXXXX
+  XXX  
+  XXX  
+Zug Nr. 4:
+  XXX  
+  OXX  
+XOXXXXX
+OOXXXXX
+OXXXXXX
+  XXX  
+  XXX  
+Zug Nr. 3:
+  XXX  
+  OXX  
+OOXXXXX
+XOXXXXX
+XXXXXXX
+  XXX  
+  XXX  
+Zug Nr. 2:
+  XXX  
+  OXX  
+XXOXXXX
+XOXXXXX
+XXXXXXX
+  XXX  
+  XXX  
+Zug Nr. 1:
+  XXX  
+  XXX  
+XXXXXXX
+XOOXXXX
+XXXXXXX
+  XXX  
+  XXX  
+Zug Nr. 0:
+  XXX  
+  XXX  
+XXXXXXX
+XXXOXXX
+XXXXXXX
+  XXX  
+  XXX  
+solved after trying 20279 moves

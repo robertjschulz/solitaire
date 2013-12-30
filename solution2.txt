@@ -1,0 +1,340 @@
+old-style getAllMoves without board cloning:
+
+number of general moves: 76
+trying to solve solitair
+
+start board:
+turn: 0; last Move: -- possible Moves: [from:(1,3) to:(3,3), from:(3,1) to:(3,3), from:(3,5) to:(3,3), from:(5,3) to:(3,3)]
+  XXX  
+  XXX  
+XXXXXXX
+XXXOXXX
+XXXXXXX
+  XXX  
+  XXX  
+
+solving...
+
+start: Mon Dec 30 02:10:18 CET 2013
+solution progress: 0.0 progressStep: 200.0 stepCounter=0: 
+turn: 0; last Move: -- possible Moves: [from:(1,3) to:(3,3), from:(3,1) to:(3,3), from:(3,5) to:(3,3), from:(5,3) to:(3,3)]
+  XXX  
+  XXX  
+XXXXXXX
+XXXOXXX
+XXXXXXX
+  XXX  
+  XXX  
+solution progress: 0.0 progressStep: 66.66666666666667 stepCounter=0: 
+turn: 1; last Move: from:(1,3) to:(3,3) possible Moves: [from:(2,1) to:(2,3), from:(2,5) to:(2,3), from:(4,3) to:(2,3)]
+  XXX  
+  XXX  
+XXXXXXX
+XOOXXXX
+XXXXXXX
+  XXX  
+  XXX  
+solution progress: 0.0 progressStep: 13.333333333333334 stepCounter=0: 
+turn: 2; last Move: from:(2,1) to:(2,3) possible Moves: [from:(0,2) to:(2,2), from:(2,4) to:(2,2), from:(3,3) to:(1,3), from:(4,1) to:(2,1), from:(4,2) to:(2,2)]
+  XXX  
+  OXX  
+XXOXXXX
+XOXXXXX
+XXXXXXX
+  XXX  
+  XXX  
+solution progress: 0.0 progressStep: 2.666666666666667 stepCounter=0: 
+turn: 3; last Move: from:(0,2) to:(2,2) possible Moves: [from:(0,4) to:(0,2), from:(2,3) to:(2,1), from:(3,2) to:(1,2), from:(3,3) to:(1,3), from:(4,1) to:(2,1)]
+  XXX  
+  OXX  
+OOXXXXX
+XOXXXXX
+XXXXXXX
+  XXX  
+  XXX  
+solution progress: 0.0 progressStep: 0.5333333333333334 stepCounter=0: 
+turn: 4; last Move: from:(0,4) to:(0,2) possible Moves: [from:(2,3) to:(2,1), from:(2,4) to:(0,4), from:(3,2) to:(1,2), from:(3,3) to:(1,3), from:(4,1) to:(2,1)]
+  XXX  
+  OXX  
+XOXXXXX
+OOXXXXX
+OXXXXXX
+  XXX  
+  XXX  
+solution progress: 0.0 progressStep: 0.10666666666666669 stepCounter=0: 
+turn: 5; last Move: from:(2,3) to:(2,1) possible Moves: [from:(2,0) to:(2,2), from:(2,4) to:(0,4), from:(2,5) to:(2,3), from:(4,2) to:(2,2), from:(4,3) to:(2,3)]
+  XXX  
+  XXX  
+XOOXXXX
+OOOXXXX
+OXXXXXX
+  XXX  
+  XXX  
+solution progress: 0.0 progressStep: 0.01777777777777778 stepCounter=0: 
+turn: 6; last Move: from:(2,0) to:(2,2) possible Moves: [from:(2,4) to:(0,4), from:(2,5) to:(2,3), from:(3,2) to:(1,2), from:(4,0) to:(2,0), from:(4,1) to:(2,1), from:(4,3) to:(2,3)]
+  OXX  
+  OXX  
+XOXXXXX
+OOOXXXX
+OXXXXXX
+  XXX  
+  XXX  
+turn: 31; last Move: from:(5,3) to:(3,3) possible Moves: []
+  OOO  
+  OOO  
+OOOOOOO
+OOOXOOO
+OOOOOOO
+  OOO  
+  OOO  
+turn: 30; last Move: from:(4,5) to:(4,3) possible Moves: [from:(4,3) to:(6,3), from:(5,3) to:(3,3)]
+  OOO  
+  OOO  
+OOOOOOO
+OOOOXXO
+OOOOOOO
+  OOO  
+  OOO  
+turn: 29; last Move: from:(2,4) to:(4,4) possible Moves: [from:(4,4) to:(4,6), from:(4,5) to:(4,3)]
+  OOO  
+  OOO  
+OOOOOOO
+OOOOOXO
+OOOOXOO
+  OOX  
+  OOO  
+turn: 28; last Move: from:(4,3) to:(4,5) possible Moves: [from:(2,4) to:(4,4), from:(3,4) to:(1,4)]
+  OOO  
+  OOO  
+OOOOOOO
+OOOOOXO
+OOXXOOO
+  OOX  
+  OOO  
+turn: 27; last Move: from:(4,1) to:(4,3) possible Moves: [from:(3,4) to:(5,4), from:(3,4) to:(1,4), from:(4,3) to:(6,3), from:(4,3) to:(4,5), from:(4,4) to:(4,2), from:(5,3) to:(3,3)]
+  OOO  
+  OOO  
+OOOOOOO
+OOOOXXO
+OOXXXOO
+  OOO  
+  OOO  
+turn: 26; last Move: from:(6,2) to:(4,2) possible Moves: [from:(3,4) to:(5,4), from:(3,4) to:(1,4), from:(4,1) to:(4,3), from:(4,2) to:(4,0)]
+  OOO  
+  OOX  
+OOOOXOO
+OOOOOXO
+OOXXXOO
+  OOO  
+  OOO  
+turn: 25; last Move: from:(6,4) to:(6,2) possible Moves: [from:(3,4) to:(5,4), from:(3,4) to:(1,4), from:(5,2) to:(5,4), from:(6,2) to:(4,2)]
+  OOO  
+  OOX  
+OOOOOXX
+OOOOOXO
+OOXXXOO
+  OOO  
+  OOO  
+turn: 24; last Move: from:(3,2) to:(5,2) possible Moves: [from:(3,4) to:(5,4), from:(3,4) to:(1,4), from:(5,2) to:(5,4), from:(6,3) to:(4,3), from:(6,4) to:(6,2)]
+  OOO  
+  OOX  
+OOOOOXO
+OOOOOXX
+OOXXXOX
+  OOO  
+  OOO  
+turn: 23; last Move: from:(6,2) to:(4,2) possible Moves: [from:(3,2) to:(5,2), from:(3,4) to:(5,4), from:(3,4) to:(1,4), from:(4,1) to:(4,3), from:(4,2) to:(4,0), from:(4,2) to:(2,2), from:(6,3) to:(4,3), from:(6,4) to:(6,2)]
+  OOO  
+  OOX  
+OOOXXOO
+OOOOOXX
+OOXXXOX
+  OOO  
+  OOO  
+turn: 22; last Move: from:(4,6) to:(4,4) possible Moves: [from:(3,4) to:(5,4), from:(3,4) to:(1,4), from:(5,2) to:(5,4), from:(6,2) to:(4,2), from:(6,3) to:(4,3)]
+  OOO  
+  OOX  
+OOOXOXX
+OOOOOXX
+OOXXXOX
+  OOO  
+  OOO  
+turn: 21; last Move: from:(5,4) to:(3,4) possible Moves: [from:(2,4) to:(4,4), from:(3,4) to:(1,4), from:(4,6) to:(4,4), from:(5,2) to:(5,4), from:(6,2) to:(4,2), from:(6,3) to:(4,3)]
+  OOO  
+  OOX  
+OOOXOXX
+OOOOOXX
+OOXXOOX
+  OOX  
+  OOX  
+turn: 20; last Move: from:(4,3) to:(4,1) possible Moves: [from:(4,5) to:(4,3), from:(5,4) to:(3,4), from:(6,2) to:(4,2), from:(6,3) to:(4,3)]
+  OOO  
+  OOX  
+OOOXOXX
+OOOOOXX
+OOXOXXX
+  OOX  
+  OOX  
+turn: 19; last Move: from:(4,0) to:(4,2) possible Moves: [from:(4,2) to:(2,2), from:(4,3) to:(4,1), from:(5,3) to:(3,3), from:(5,4) to:(3,4)]
+  OOO  
+  OOO  
+OOOXXXX
+OOOOXXX
+OOXOXXX
+  OOX  
+  OOX  
+turn: 18; last Move: from:(1,2) to:(3,2) possible Moves: [from:(4,0) to:(4,2), from:(4,4) to:(4,2), from:(5,3) to:(3,3), from:(5,4) to:(3,4), from:(6,2) to:(4,2)]
+  OOX  
+  OOX  
+OOOXOXX
+OOOOXXX
+OOXOXXX
+  OOX  
+  OOX  
+turn: 17; last Move: from:(4,2) to:(2,2) possible Moves: [from:(1,2) to:(3,2), from:(2,2) to:(0,2), from:(4,0) to:(4,2), from:(4,4) to:(4,2), from:(5,3) to:(3,3), from:(5,4) to:(3,4), from:(6,2) to:(4,2)]
+  OOX  
+  OOX  
+OXXOOXX
+OOOOXXX
+OOXOXXX
+  OOX  
+  OOX  
+turn: 16; last Move: from:(0,4) to:(2,4) possible Moves: [from:(4,2) to:(2,2), from:(5,3) to:(3,3), from:(5,4) to:(3,4)]
+  OOX  
+  OOX  
+OXOXXXX
+OOOOXXX
+OOXOXXX
+  OOX  
+  OOX  
+turn: 15; last Move: from:(3,4) to:(1,4) possible Moves: [from:(0,4) to:(2,4), from:(4,2) to:(2,2), from:(5,3) to:(3,3), from:(5,4) to:(3,4)]
+  OOX  
+  OOX  
+OXOXXXX
+OOOOXXX
+XXOOXXX
+  OOX  
+  OOX  
+turn: 14; last Move: from:(3,6) to:(3,4) possible Moves: [from:(3,4) to:(1,4), from:(4,2) to:(2,2), from:(5,3) to:(3,3)]
+  OOX  
+  OOX  
+OXOXXXX
+OOOOXXX
+XOXXXXX
+  OOX  
+  OOX  
+turn: 13; last Move: from:(3,4) to:(3,2) possible Moves: [from:(3,6) to:(3,4), from:(4,2) to:(2,2), from:(4,5) to:(2,5), from:(4,6) to:(2,6), from:(5,3) to:(3,3), from:(5,4) to:(3,4)]
+  OOX  
+  OOX  
+OXOXXXX
+OOOOXXX
+XOXOXXX
+  OXX  
+  OXX  
+turn: 12; last Move: from:(3,2) to:(1,2) possible Moves: [from:(3,4) to:(3,2), from:(3,4) to:(1,4), from:(4,3) to:(2,3), from:(4,5) to:(2,5), from:(4,6) to:(2,6), from:(5,2) to:(3,2)]
+  OOX  
+  OOX  
+OXOOXXX
+OOOXXXX
+XOXXXXX
+  OXX  
+  OXX  
+turn: 11; last Move: from:(3,0) to:(3,2) possible Moves: [from:(3,2) to:(1,2), from:(3,3) to:(3,1), from:(3,4) to:(1,4), from:(4,3) to:(2,3), from:(4,5) to:(2,5), from:(4,6) to:(2,6)]
+  OOX  
+  OOX  
+OOXXXXX
+OOOXXXX
+XOXXXXX
+  OXX  
+  OXX  
+turn: 10; last Move: from:(0,2) to:(2,2) possible Moves: [from:(3,0) to:(3,2), from:(3,4) to:(3,2), from:(3,4) to:(1,4), from:(4,0) to:(2,0), from:(4,1) to:(2,1), from:(4,3) to:(2,3), from:(4,5) to:(2,5), from:(4,6) to:(2,6), from:(5,2) to:(3,2)]
+  OXX  
+  OXX  
+OOXOXXX
+OOOXXXX
+XOXXXXX
+  OXX  
+  OXX  
+turn: 9; last Move: from:(3,2) to:(1,2) possible Moves: [from:(0,2) to:(2,2), from:(3,0) to:(3,2), from:(3,4) to:(3,2), from:(3,4) to:(1,4), from:(4,0) to:(2,0), from:(4,1) to:(2,1), from:(4,3) to:(2,3), from:(4,5) to:(2,5), from:(4,6) to:(2,6), from:(5,2) to:(3,2)]
+  OXX  
+  OXX  
+XXOOXXX
+OOOXXXX
+XOXXXXX
+  OXX  
+  OXX  
+turn: 8; last Move: from:(2,6) to:(2,4) possible Moves: [from:(3,2) to:(1,2), from:(3,4) to:(1,4), from:(4,0) to:(2,0), from:(4,1) to:(2,1), from:(4,3) to:(2,3), from:(4,5) to:(2,5), from:(4,6) to:(2,6)]
+  OXX  
+  OXX  
+XOXXXXX
+OOOXXXX
+XOXXXXX
+  OXX  
+  OXX  
+turn: 7; last Move: from:(2,4) to:(0,4) possible Moves: [from:(2,6) to:(2,4), from:(3,2) to:(1,2), from:(4,0) to:(2,0), from:(4,1) to:(2,1), from:(4,3) to:(2,3), from:(4,4) to:(2,4)]
+  OXX  
+  OXX  
+XOXXXXX
+OOOXXXX
+XOOXXXX
+  XXX  
+  XXX  
+turn: 6; last Move: from:(2,0) to:(2,2) possible Moves: [from:(2,4) to:(0,4), from:(2,5) to:(2,3), from:(3,2) to:(1,2), from:(4,0) to:(2,0), from:(4,1) to:(2,1), from:(4,3) to:(2,3)]
+  OXX  
+  OXX  
+XOXXXXX
+OOOXXXX
+OXXXXXX
+  XXX  
+  XXX  
+turn: 5; last Move: from:(2,3) to:(2,1) possible Moves: [from:(2,0) to:(2,2), from:(2,4) to:(0,4), from:(2,5) to:(2,3), from:(4,2) to:(2,2), from:(4,3) to:(2,3)]
+  XXX  
+  XXX  
+XOOXXXX
+OOOXXXX
+OXXXXXX
+  XXX  
+  XXX  
+turn: 4; last Move: from:(0,4) to:(0,2) possible Moves: [from:(2,3) to:(2,1), from:(2,4) to:(0,4), from:(3,2) to:(1,2), from:(3,3) to:(1,3), from:(4,1) to:(2,1)]
+  XXX  
+  OXX  
+XOXXXXX
+OOXXXXX
+OXXXXXX
+  XXX  
+  XXX  
+turn: 3; last Move: from:(0,2) to:(2,2) possible Moves: [from:(0,4) to:(0,2), from:(2,3) to:(2,1), from:(3,2) to:(1,2), from:(3,3) to:(1,3), from:(4,1) to:(2,1)]
+  XXX  
+  OXX  
+OOXXXXX
+XOXXXXX
+XXXXXXX
+  XXX  
+  XXX  
+turn: 2; last Move: from:(2,1) to:(2,3) possible Moves: [from:(0,2) to:(2,2), from:(2,4) to:(2,2), from:(3,3) to:(1,3), from:(4,1) to:(2,1), from:(4,2) to:(2,2)]
+  XXX  
+  OXX  
+XXOXXXX
+XOXXXXX
+XXXXXXX
+  XXX  
+  XXX  
+turn: 1; last Move: from:(1,3) to:(3,3) possible Moves: [from:(2,1) to:(2,3), from:(2,5) to:(2,3), from:(4,3) to:(2,3)]
+  XXX  
+  XXX  
+XXXXXXX
+XOOXXXX
+XXXXXXX
+  XXX  
+  XXX  
+turn: 0; last Move: -- possible Moves: [from:(1,3) to:(3,3), from:(3,1) to:(3,3), from:(3,5) to:(3,3), from:(5,3) to:(3,3)]
+  XXX  
+  XXX  
+XXXXXXX
+XXXOXXX
+XXXXXXX
+  XXX  
+  XXX  
+solved with best ranking 0 after trying 20279 moves
+solving took 0.5367026020000001 seconds...
+

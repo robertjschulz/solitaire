@@ -1,0 +1,2547 @@
+turn: 14; last Move: from:(6,3) to:(4,3) possible Moves: [from:(6,2) to:(4,2), from:(4,4) to:(4,2), from:(2,4) to:(0,4), from:(1,4) to:(3,4), from:(5,4) to:(3,4)]
+  XOX  
+  OOO  
+XOXOOXX
+OOXOXOO
+OXXOXXX
+  XOX  
+  XXX  
+solution progress: 4.707263182669805E-6 progressStep: 1.0368421107201809E-9 stepCounter=427188223: 
+turn: 15; last Move: from:(1,4) to:(3,4) possible Moves: [from:(6,2) to:(4,2), from:(4,4) to:(4,2), from:(2,2) to:(2,4), from:(4,4) to:(2,4), from:(2,6) to:(2,4)]
+  XOX  
+  OOO  
+XOXOOXX
+OOXOXOO
+OOOXXXX
+  XOX  
+  XXX  
+solution progress: 4.708300024780525E-6 progressStep: 1.0368421107201809E-9 stepCounter=427315301: 
+turn: 15; last Move: from:(1,4) to:(3,4) possible Moves: [from:(6,2) to:(4,2), from:(4,4) to:(4,2), from:(2,2) to:(2,4), from:(4,4) to:(2,4), from:(2,6) to:(2,4)]
+  XOX  
+  OOO  
+XOXOOXX
+OOXOXOO
+OOOXXXX
+  XOX  
+  XXX  
+solution progress: 4.709336866891245E-6 progressStep: 1.0368421107201809E-9 stepCounter=427350951: 
+turn: 15; last Move: from:(1,4) to:(3,4) possible Moves: [from:(6,2) to:(4,2), from:(4,4) to:(4,2), from:(2,2) to:(2,4), from:(4,4) to:(2,4), from:(2,6) to:(2,4)]
+  XOX  
+  OOO  
+XOXOOXX
+OOXOXOO
+OOOXXXX
+  XOX  
+  XXX  
+solution progress: 4.710373709001965E-6 progressStep: 1.0368421107201809E-9 stepCounter=427402607: 
+turn: 15; last Move: from:(1,4) to:(3,4) possible Moves: [from:(6,2) to:(4,2), from:(4,4) to:(4,2), from:(2,2) to:(2,4), from:(4,4) to:(2,4), from:(2,6) to:(2,4)]
+  XOX  
+  OOO  
+XOXOOXX
+OOXOXOO
+OOOXXXX
+  XOX  
+  XXX  
+solution progress: 4.711410551112685E-6 progressStep: 1.0368421107201809E-9 stepCounter=427407826: 
+turn: 15; last Move: from:(1,4) to:(3,4) possible Moves: [from:(6,2) to:(4,2), from:(4,4) to:(4,2), from:(2,2) to:(2,4), from:(4,4) to:(2,4), from:(2,6) to:(2,4)]
+  XOX  
+  OOO  
+XOXOOXX
+OOXOXOO
+OOOXXXX
+  XOX  
+  XXX  
+solution progress: 4.712447393223406E-6 progressStep: 5.184210553601074E-9 stepCounter=427536710: 
+turn: 14; last Move: from:(6,3) to:(4,3) possible Moves: [from:(6,2) to:(4,2), from:(4,4) to:(4,2), from:(2,4) to:(0,4), from:(1,4) to:(3,4), from:(5,4) to:(3,4)]
+  XOX  
+  OOO  
+XOXOOXX
+OOXOXOO
+OXXOXXX
+  XOX  
+  XXX  
+solution progress: 4.712447393223406E-6 progressStep: 1.2960526384002261E-9 stepCounter=427536710: 
+turn: 15; last Move: from:(5,4) to:(3,4) possible Moves: [from:(6,2) to:(4,2), from:(2,4) to:(0,4), from:(2,4) to:(4,4), from:(4,6) to:(4,4)]
+  XOX  
+  OOO  
+XOXOOXX
+OOXOXOO
+OXXXOOX
+  XOX  
+  XXX  
+solution progress: 4.713743445861806E-6 progressStep: 1.2960526384002261E-9 stepCounter=427598917: 
+turn: 15; last Move: from:(5,4) to:(3,4) possible Moves: [from:(6,2) to:(4,2), from:(2,4) to:(0,4), from:(2,4) to:(4,4), from:(4,6) to:(4,4)]
+  XOX  
+  OOO  
+XOXOOXX
+OOXOXOO
+OXXXOOX
+  XOX  
+  XXX  
+solution progress: 4.7150394985002065E-6 progressStep: 1.2960526384002261E-9 stepCounter=427637096: 
+turn: 15; last Move: from:(5,4) to:(3,4) possible Moves: [from:(6,2) to:(4,2), from:(2,4) to:(0,4), from:(2,4) to:(4,4), from:(4,6) to:(4,4)]
+  XOX  
+  OOO  
+XOXOOXX
+OOXOXOO
+OXXXOOX
+  XOX  
+  XXX  
+solution progress: 4.716335551138607E-6 progressStep: 1.2960526384002261E-9 stepCounter=427660723: 
+turn: 15; last Move: from:(5,4) to:(3,4) possible Moves: [from:(6,2) to:(4,2), from:(2,4) to:(0,4), from:(2,4) to:(4,4), from:(4,6) to:(4,4)]
+  XOX  
+  OOO  
+XOXOOXX
+OOXOXOO
+OXXXOOX
+  XOX  
+  XXX  
+solution progress: 4.717631603777008E-6 progressStep: 2.5921052768005512E-8 stepCounter=427767745: 
+turn: 13; last Move: from:(4,3) to:(2,3) possible Moves: [from:(6,2) to:(4,2), from:(6,3) to:(4,3), from:(4,5) to:(4,3), from:(2,4) to:(0,4), from:(1,4) to:(3,4), from:(5,4) to:(3,4)]
+  XOX  
+  OOO  
+XOXOOXX
+OOXOOXX
+OXXOXXX
+  XOX  
+  XXX  
+solution progress: 4.717631603777008E-6 progressStep: 5.184210553601074E-9 stepCounter=427767745: 
+turn: 14; last Move: from:(4,5) to:(4,3) possible Moves: [from:(6,2) to:(4,2), from:(5,3) to:(3,3), from:(2,4) to:(0,4), from:(1,4) to:(3,4), from:(6,4) to:(4,4)]
+  XOX  
+  OOO  
+XOXOOXX
+OOXOXXX
+OXXOOXX
+  XOO  
+  XXX  
+solution progress: 4.722815814330609E-6 progressStep: 5.184210553601074E-9 stepCounter=428450191: 
+turn: 14; last Move: from:(4,5) to:(4,3) possible Moves: [from:(6,2) to:(4,2), from:(5,3) to:(3,3), from:(2,4) to:(0,4), from:(1,4) to:(3,4), from:(6,4) to:(4,4)]
+  XOX  
+  OOO  
+XOXOOXX
+OOXOXXX
+OXXOOXX
+  XOO  
+  XXX  
+solution progress: 4.722815814330609E-6 progressStep: 1.0368421107201809E-9 stepCounter=428450191: 
+turn: 15; last Move: from:(5,3) to:(3,3) possible Moves: [from:(6,2) to:(4,2), from:(2,3) to:(4,3), from:(2,4) to:(0,4), from:(1,4) to:(3,4), from:(6,4) to:(4,4)]
+  XOX  
+  OOO  
+XOXOOXX
+OOXXOOX
+OXXOOXX
+  XOO  
+  XXX  
+solution progress: 4.723852656441329E-6 progressStep: 1.0368421107201809E-9 stepCounter=428456668: 
+turn: 15; last Move: from:(5,3) to:(3,3) possible Moves: [from:(6,2) to:(4,2), from:(2,3) to:(4,3), from:(2,4) to:(0,4), from:(1,4) to:(3,4), from:(6,4) to:(4,4)]
+  XOX  
+  OOO  
+XOXOOXX
+OOXXOOX
+OXXOOXX
+  XOO  
+  XXX  
+solution progress: 4.724889498552049E-6 progressStep: 1.0368421107201809E-9 stepCounter=428468129: 
+turn: 15; last Move: from:(5,3) to:(3,3) possible Moves: [from:(6,2) to:(4,2), from:(2,3) to:(4,3), from:(2,4) to:(0,4), from:(1,4) to:(3,4), from:(6,4) to:(4,4)]
+  XOX  
+  OOO  
+XOXOOXX
+OOXXOOX
+OXXOOXX
+  XOO  
+  XXX  
+solution progress: 4.725926340662769E-6 progressStep: 1.0368421107201809E-9 stepCounter=428470215: 
+turn: 15; last Move: from:(5,3) to:(3,3) possible Moves: [from:(6,2) to:(4,2), from:(2,3) to:(4,3), from:(2,4) to:(0,4), from:(1,4) to:(3,4), from:(6,4) to:(4,4)]
+  XOX  
+  OOO  
+XOXOOXX
+OOXXOOX
+OXXOOXX
+  XOO  
+  XXX  
+solution progress: 4.726963182773489E-6 progressStep: 1.0368421107201809E-9 stepCounter=428498691: 
+turn: 15; last Move: from:(5,3) to:(3,3) possible Moves: [from:(6,2) to:(4,2), from:(2,3) to:(4,3), from:(2,4) to:(0,4), from:(1,4) to:(3,4), from:(6,4) to:(4,4)]
+  XOX  
+  OOO  
+XOXOOXX
+OOXXOOX
+OXXOOXX
+  XOO  
+  XXX  
+solution progress: 4.72800002488421E-6 progressStep: 5.184210553601074E-9 stepCounter=428508760: 
+turn: 14; last Move: from:(4,5) to:(4,3) possible Moves: [from:(6,2) to:(4,2), from:(5,3) to:(3,3), from:(2,4) to:(0,4), from:(1,4) to:(3,4), from:(6,4) to:(4,4)]
+  XOX  
+  OOO  
+XOXOOXX
+OOXOXXX
+OXXOOXX
+  XOO  
+  XXX  
+solution progress: 4.72800002488421E-6 progressStep: 1.0368421107201809E-9 stepCounter=428508760: 
+turn: 15; last Move: from:(2,4) to:(0,4) possible Moves: [from:(6,2) to:(4,2), from:(5,3) to:(3,3), from:(2,2) to:(2,4), from:(2,6) to:(2,4), from:(6,4) to:(4,4)]
+  XOX  
+  OOO  
+XOXOOXX
+OOXOXXX
+XOOOOXX
+  XOO  
+  XXX  
+solution progress: 4.72903686699493E-6 progressStep: 1.0368421107201809E-9 stepCounter=428536123: 
+turn: 15; last Move: from:(2,4) to:(0,4) possible Moves: [from:(6,2) to:(4,2), from:(5,3) to:(3,3), from:(2,2) to:(2,4), from:(2,6) to:(2,4), from:(6,4) to:(4,4)]
+  XOX  
+  OOO  
+XOXOOXX
+OOXOXXX
+XOOOOXX
+  XOO  
+  XXX  
+solution progress: 4.73007370910565E-6 progressStep: 1.0368421107201809E-9 stepCounter=428538209: 
+turn: 15; last Move: from:(2,4) to:(0,4) possible Moves: [from:(6,2) to:(4,2), from:(5,3) to:(3,3), from:(2,2) to:(2,4), from:(2,6) to:(2,4), from:(6,4) to:(4,4)]
+  XOX  
+  OOO  
+XOXOOXX
+OOXOXXX
+XOOOOXX
+  XOO  
+  XXX  
+solution progress: 4.73111055121637E-6 progressStep: 1.0368421107201809E-9 stepCounter=428541645: 
+turn: 15; last Move: from:(2,4) to:(0,4) possible Moves: [from:(6,2) to:(4,2), from:(5,3) to:(3,3), from:(2,2) to:(2,4), from:(2,6) to:(2,4), from:(6,4) to:(4,4)]
+  XOX  
+  OOO  
+XOXOOXX
+OOXOXXX
+XOOOOXX
+  XOO  
+  XXX  
+solution progress: 4.73214739332709E-6 progressStep: 1.0368421107201809E-9 stepCounter=428561490: 
+turn: 15; last Move: from:(2,4) to:(0,4) possible Moves: [from:(6,2) to:(4,2), from:(5,3) to:(3,3), from:(2,2) to:(2,4), from:(2,6) to:(2,4), from:(6,4) to:(4,4)]
+  XOX  
+  OOO  
+XOXOOXX
+OOXOXXX
+XOOOOXX
+  XOO  
+  XXX  
+solution progress: 4.7331842354378105E-6 progressStep: 5.184210553601074E-9 stepCounter=428579219: 
+turn: 14; last Move: from:(4,5) to:(4,3) possible Moves: [from:(6,2) to:(4,2), from:(5,3) to:(3,3), from:(2,4) to:(0,4), from:(1,4) to:(3,4), from:(6,4) to:(4,4)]
+  XOX  
+  OOO  
+XOXOOXX
+OOXOXXX
+OXXOOXX
+  XOO  
+  XXX  
+solution progress: 4.7331842354378105E-6 progressStep: 1.0368421107201809E-9 stepCounter=428579219: 
+turn: 15; last Move: from:(1,4) to:(3,4) possible Moves: [from:(6,2) to:(4,2), from:(5,3) to:(3,3), from:(2,2) to:(2,4), from:(2,6) to:(2,4), from:(6,4) to:(4,4)]
+  XOX  
+  OOO  
+XOXOOXX
+OOXOXXX
+OOOXOXX
+  XOO  
+  XXX  
+solution progress: 4.7342210775485305E-6 progressStep: 1.0368421107201809E-9 stepCounter=428909159: 
+turn: 15; last Move: from:(1,4) to:(3,4) possible Moves: [from:(6,2) to:(4,2), from:(5,3) to:(3,3), from:(2,2) to:(2,4), from:(2,6) to:(2,4), from:(6,4) to:(4,4)]
+  XOX  
+  OOO  
+XOXOOXX
+OOXOXXX
+OOOXOXX
+  XOO  
+  XXX  
+solution progress: 4.7352579196592505E-6 progressStep: 1.0368421107201809E-9 stepCounter=428939854: 
+turn: 15; last Move: from:(1,4) to:(3,4) possible Moves: [from:(6,2) to:(4,2), from:(5,3) to:(3,3), from:(2,2) to:(2,4), from:(2,6) to:(2,4), from:(6,4) to:(4,4)]
+  XOX  
+  OOO  
+XOXOOXX
+OOXOXXX
+OOOXOXX
+  XOO  
+  XXX  
+solution progress: 4.7362947617699706E-6 progressStep: 1.0368421107201809E-9 stepCounter=429069073: 
+turn: 15; last Move: from:(1,4) to:(3,4) possible Moves: [from:(6,2) to:(4,2), from:(5,3) to:(3,3), from:(2,2) to:(2,4), from:(2,6) to:(2,4), from:(6,4) to:(4,4)]
+  XOX  
+  OOO  
+XOXOOXX
+OOXOXXX
+OOOXOXX
+  XOO  
+  XXX  
+solution progress: 4.7373316038806906E-6 progressStep: 1.0368421107201809E-9 stepCounter=429383564: 
+turn: 15; last Move: from:(1,4) to:(3,4) possible Moves: [from:(6,2) to:(4,2), from:(5,3) to:(3,3), from:(2,2) to:(2,4), from:(2,6) to:(2,4), from:(6,4) to:(4,4)]
+  XOX  
+  OOO  
+XOXOOXX
+OOXOXXX
+OOOXOXX
+  XOO  
+  XXX  
+solution progress: 4.738368445991411E-6 progressStep: 5.184210553601074E-9 stepCounter=429662352: 
+turn: 14; last Move: from:(4,5) to:(4,3) possible Moves: [from:(6,2) to:(4,2), from:(5,3) to:(3,3), from:(2,4) to:(0,4), from:(1,4) to:(3,4), from:(6,4) to:(4,4)]
+  XOX  
+  OOO  
+XOXOOXX
+OOXOXXX
+OXXOOXX
+  XOO  
+  XXX  
+solution progress: 4.743552656545013E-6 progressStep: 2.5921052768005512E-8 stepCounter=430196370: 
+turn: 13; last Move: from:(4,3) to:(2,3) possible Moves: [from:(6,2) to:(4,2), from:(6,3) to:(4,3), from:(4,5) to:(4,3), from:(2,4) to:(0,4), from:(1,4) to:(3,4), from:(5,4) to:(3,4)]
+  XOX  
+  OOO  
+XOXOOXX
+OOXOOXX
+OXXOXXX
+  XOX  
+  XXX  
+solution progress: 4.743552656545013E-6 progressStep: 4.3201754613342286E-9 stepCounter=430196370: 
+turn: 14; last Move: from:(2,4) to:(0,4) possible Moves: [from:(6,2) to:(4,2), from:(6,3) to:(4,3), from:(4,5) to:(4,3), from:(2,2) to:(2,4), from:(2,6) to:(2,4), from:(5,4) to:(3,4)]
+  XOX  
+  OOO  
+XOXOOXX
+OOXOOXX
+XOOOXXX
+  XOX  
+  XXX  
+solution progress: 4.747872832006347E-6 progressStep: 4.3201754613342286E-9 stepCounter=430236715: 
+turn: 14; last Move: from:(2,4) to:(0,4) possible Moves: [from:(6,2) to:(4,2), from:(6,3) to:(4,3), from:(4,5) to:(4,3), from:(2,2) to:(2,4), from:(2,6) to:(2,4), from:(5,4) to:(3,4)]
+  XOX  
+  OOO  
+XOXOOXX
+OOXOOXX
+XOOOXXX
+  XOX  
+  XXX  
+solution progress: 4.752193007467681E-6 progressStep: 4.3201754613342286E-9 stepCounter=430334232: 
+turn: 14; last Move: from:(2,4) to:(0,4) possible Moves: [from:(6,2) to:(4,2), from:(6,3) to:(4,3), from:(4,5) to:(4,3), from:(2,2) to:(2,4), from:(2,6) to:(2,4), from:(5,4) to:(3,4)]
+  XOX  
+  OOO  
+XOXOOXX
+OOXOOXX
+XOOOXXX
+  XOX  
+  XXX  
+solution progress: 4.7565131829290154E-6 progressStep: 4.3201754613342286E-9 stepCounter=430404691: 
+turn: 14; last Move: from:(2,4) to:(0,4) possible Moves: [from:(6,2) to:(4,2), from:(6,3) to:(4,3), from:(4,5) to:(4,3), from:(2,2) to:(2,4), from:(2,6) to:(2,4), from:(5,4) to:(3,4)]
+  XOX  
+  OOO  
+XOXOOXX
+OOXOOXX
+XOOOXXX
+  XOX  
+  XXX  
+solution progress: 4.7608333583903495E-6 progressStep: 4.3201754613342286E-9 stepCounter=430444470: 
+turn: 14; last Move: from:(2,4) to:(0,4) possible Moves: [from:(6,2) to:(4,2), from:(6,3) to:(4,3), from:(4,5) to:(4,3), from:(2,2) to:(2,4), from:(2,6) to:(2,4), from:(5,4) to:(3,4)]
+  XOX  
+  OOO  
+XOXOOXX
+OOXOOXX
+XOOOXXX
+  XOX  
+  XXX  
+solution progress: 4.765153533851684E-6 progressStep: 4.3201754613342286E-9 stepCounter=430521471: 
+turn: 14; last Move: from:(2,4) to:(0,4) possible Moves: [from:(6,2) to:(4,2), from:(6,3) to:(4,3), from:(4,5) to:(4,3), from:(2,2) to:(2,4), from:(2,6) to:(2,4), from:(5,4) to:(3,4)]
+  XOX  
+  OOO  
+XOXOOXX
+OOXOOXX
+XOOOXXX
+  XOX  
+  XXX  
+solution progress: 4.7694737093130185E-6 progressStep: 2.5921052768005512E-8 stepCounter=430678658: 
+turn: 13; last Move: from:(4,3) to:(2,3) possible Moves: [from:(6,2) to:(4,2), from:(6,3) to:(4,3), from:(4,5) to:(4,3), from:(2,4) to:(0,4), from:(1,4) to:(3,4), from:(5,4) to:(3,4)]
+  XOX  
+  OOO  
+XOXOOXX
+OOXOOXX
+OXXOXXX
+  XOX  
+  XXX  
+solution progress: 4.7694737093130185E-6 progressStep: 4.3201754613342286E-9 stepCounter=430678658: 
+turn: 14; last Move: from:(1,4) to:(3,4) possible Moves: [from:(6,2) to:(4,2), from:(6,3) to:(4,3), from:(4,5) to:(4,3), from:(2,2) to:(2,4), from:(4,4) to:(2,4), from:(2,6) to:(2,4)]
+  XOX  
+  OOO  
+XOXOOXX
+OOXOOXX
+OOOXXXX
+  XOX  
+  XXX  
+solution progress: 4.773793884774353E-6 progressStep: 4.3201754613342286E-9 stepCounter=430966060: 
+turn: 14; last Move: from:(1,4) to:(3,4) possible Moves: [from:(6,2) to:(4,2), from:(6,3) to:(4,3), from:(4,5) to:(4,3), from:(2,2) to:(2,4), from:(4,4) to:(2,4), from:(2,6) to:(2,4)]
+  XOX  
+  OOO  
+XOXOOXX
+OOXOOXX
+OOOXXXX
+  XOX  
+  XXX  
+solution progress: 4.778114060235687E-6 progressStep: 4.3201754613342286E-9 stepCounter=431314547: 
+turn: 14; last Move: from:(1,4) to:(3,4) possible Moves: [from:(6,2) to:(4,2), from:(6,3) to:(4,3), from:(4,5) to:(4,3), from:(2,2) to:(2,4), from:(4,4) to:(2,4), from:(2,6) to:(2,4)]
+  XOX  
+  OOO  
+XOXOOXX
+OOXOOXX
+OOOXXXX
+  XOX  
+  XXX  
+solution progress: 4.782434235697021E-6 progressStep: 4.3201754613342286E-9 stepCounter=432397680: 
+turn: 14; last Move: from:(1,4) to:(3,4) possible Moves: [from:(6,2) to:(4,2), from:(6,3) to:(4,3), from:(4,5) to:(4,3), from:(2,2) to:(2,4), from:(4,4) to:(2,4), from:(2,6) to:(2,4)]
+  XOX  
+  OOO  
+XOXOOXX
+OOXOOXX
+OOOXXXX
+  XOX  
+  XXX  
+solution progress: 4.786754411158355E-6 progressStep: 4.3201754613342286E-9 stepCounter=432838359: 
+turn: 14; last Move: from:(1,4) to:(3,4) possible Moves: [from:(6,2) to:(4,2), from:(6,3) to:(4,3), from:(4,5) to:(4,3), from:(2,2) to:(2,4), from:(4,4) to:(2,4), from:(2,6) to:(2,4)]
+  XOX  
+  OOO  
+XOXOOXX
+OOXOOXX
+OOOXXXX
+  XOX  
+  XXX  
+solution progress: 4.786754411158355E-6 progressStep: 1.0800438653335218E-9 stepCounter=432838359: 
+turn: 15; last Move: from:(4,4) to:(2,4) possible Moves: [from:(6,2) to:(4,2), from:(6,3) to:(4,3), from:(6,4) to:(4,4), from:(4,6) to:(4,4)]
+  XOX  
+  OOO  
+XOXOOXX
+OOXOOXX
+OOXOOXX
+  XOX  
+  XXX  
+solution progress: 4.787834455023688E-6 progressStep: 1.0800438653335218E-9 stepCounter=432840060: 
+turn: 15; last Move: from:(4,4) to:(2,4) possible Moves: [from:(6,2) to:(4,2), from:(6,3) to:(4,3), from:(6,4) to:(4,4), from:(4,6) to:(4,4)]
+  XOX  
+  OOO  
+XOXOOXX
+OOXOOXX
+OOXOOXX
+  XOX  
+  XXX  
+solution progress: 4.788914498889022E-6 progressStep: 1.0800438653335218E-9 stepCounter=432845279: 
+turn: 15; last Move: from:(4,4) to:(2,4) possible Moves: [from:(6,2) to:(4,2), from:(6,3) to:(4,3), from:(6,4) to:(4,4), from:(4,6) to:(4,4)]
+  XOX  
+  OOO  
+XOXOOXX
+OOXOOXX
+OOXOOXX
+  XOX  
+  XXX  
+solution progress: 4.7899945427543555E-6 progressStep: 1.0800438653335218E-9 stepCounter=432845494: 
+turn: 15; last Move: from:(4,4) to:(2,4) possible Moves: [from:(6,2) to:(4,2), from:(6,3) to:(4,3), from:(6,4) to:(4,4), from:(4,6) to:(4,4)]
+  XOX  
+  OOO  
+XOXOOXX
+OOXOOXX
+OOXOOXX
+  XOX  
+  XXX  
+solution progress: 4.791074586619689E-6 progressStep: 4.3201754613342286E-9 stepCounter=432855539: 
+turn: 14; last Move: from:(1,4) to:(3,4) possible Moves: [from:(6,2) to:(4,2), from:(6,3) to:(4,3), from:(4,5) to:(4,3), from:(2,2) to:(2,4), from:(4,4) to:(2,4), from:(2,6) to:(2,4)]
+  XOX  
+  OOO  
+XOXOOXX
+OOXOOXX
+OOOXXXX
+  XOX  
+  XXX  
+solution progress: 4.795394762081024E-6 progressStep: 2.5921052768005512E-8 stepCounter=433905448: 
+turn: 13; last Move: from:(4,3) to:(2,3) possible Moves: [from:(6,2) to:(4,2), from:(6,3) to:(4,3), from:(4,5) to:(4,3), from:(2,4) to:(0,4), from:(1,4) to:(3,4), from:(5,4) to:(3,4)]
+  XOX  
+  OOO  
+XOXOOXX
+OOXOOXX
+OXXOXXX
+  XOX  
+  XXX  
+solution progress: 4.795394762081024E-6 progressStep: 4.3201754613342286E-9 stepCounter=433905448: 
+turn: 14; last Move: from:(5,4) to:(3,4) possible Moves: [from:(6,2) to:(4,2), from:(6,3) to:(4,3), from:(2,4) to:(0,4), from:(2,4) to:(4,4), from:(4,6) to:(4,4), from:(5,2) to:(5,4)]
+  XOX  
+  OOO  
+XOXOOXX
+OOXOOXX
+OXXXOOX
+  XOX  
+  XXX  
+solution progress: 4.799714937542358E-6 progressStep: 4.3201754613342286E-9 stepCounter=433980306: 
+turn: 14; last Move: from:(5,4) to:(3,4) possible Moves: [from:(6,2) to:(4,2), from:(6,3) to:(4,3), from:(2,4) to:(0,4), from:(2,4) to:(4,4), from:(4,6) to:(4,4), from:(5,2) to:(5,4)]
+  XOX  
+  OOO  
+XOXOOXX
+OOXOOXX
+OXXXOOX
+  XOX  
+  XXX  
+solution progress: 4.799714937542358E-6 progressStep: 1.0800438653335218E-9 stepCounter=433980306: 
+turn: 15; last Move: from:(6,3) to:(4,3) possible Moves: [from:(6,2) to:(4,2), from:(2,4) to:(0,4), from:(2,4) to:(4,4), from:(4,6) to:(4,4)]
+  XOX  
+  OOO  
+XOXOOXX
+OOXOXOO
+OXXXOOX
+  XOX  
+  XXX  
+solution progress: 4.8007949814076915E-6 progressStep: 1.0800438653335218E-9 stepCounter=434042513: 
+turn: 15; last Move: from:(6,3) to:(4,3) possible Moves: [from:(6,2) to:(4,2), from:(2,4) to:(0,4), from:(2,4) to:(4,4), from:(4,6) to:(4,4)]
+  XOX  
+  OOO  
+XOXOOXX
+OOXOXOO
+OXXXOOX
+  XOX  
+  XXX  
+solution progress: 4.801875025273025E-6 progressStep: 1.0800438653335218E-9 stepCounter=434080692: 
+turn: 15; last Move: from:(6,3) to:(4,3) possible Moves: [from:(6,2) to:(4,2), from:(2,4) to:(0,4), from:(2,4) to:(4,4), from:(4,6) to:(4,4)]
+  XOX  
+  OOO  
+XOXOOXX
+OOXOXOO
+OXXXOOX
+  XOX  
+  XXX  
+solution progress: 4.8029550691383586E-6 progressStep: 1.0800438653335218E-9 stepCounter=434104319: 
+turn: 15; last Move: from:(6,3) to:(4,3) possible Moves: [from:(6,2) to:(4,2), from:(2,4) to:(0,4), from:(2,4) to:(4,4), from:(4,6) to:(4,4)]
+  XOX  
+  OOO  
+XOXOOXX
+OOXOXOO
+OXXXOOX
+  XOX  
+  XXX  
+solution progress: 4.804035113003692E-6 progressStep: 4.3201754613342286E-9 stepCounter=434211340: 
+turn: 14; last Move: from:(5,4) to:(3,4) possible Moves: [from:(6,2) to:(4,2), from:(6,3) to:(4,3), from:(2,4) to:(0,4), from:(2,4) to:(4,4), from:(4,6) to:(4,4), from:(5,2) to:(5,4)]
+  XOX  
+  OOO  
+XOXOOXX
+OOXOOXX
+OXXXOOX
+  XOX  
+  XXX  
+solution progress: 4.808355288465026E-6 progressStep: 4.3201754613342286E-9 stepCounter=434368526: 
+turn: 14; last Move: from:(5,4) to:(3,4) possible Moves: [from:(6,2) to:(4,2), from:(6,3) to:(4,3), from:(2,4) to:(0,4), from:(2,4) to:(4,4), from:(4,6) to:(4,4), from:(5,2) to:(5,4)]
+  XOX  
+  OOO  
+XOXOOXX
+OOXOOXX
+OXXXOOX
+  XOX  
+  XXX  
+solution progress: 4.81267546392636E-6 progressStep: 4.3201754613342286E-9 stepCounter=434599850: 
+turn: 14; last Move: from:(5,4) to:(3,4) possible Moves: [from:(6,2) to:(4,2), from:(6,3) to:(4,3), from:(2,4) to:(0,4), from:(2,4) to:(4,4), from:(4,6) to:(4,4), from:(5,2) to:(5,4)]
+  XOX  
+  OOO  
+XOXOOXX
+OOXOOXX
+OXXXOOX
+  XOX  
+  XXX  
+solution progress: 4.816995639387694E-6 progressStep: 4.3201754613342286E-9 stepCounter=434974219: 
+turn: 14; last Move: from:(5,4) to:(3,4) possible Moves: [from:(6,2) to:(4,2), from:(6,3) to:(4,3), from:(2,4) to:(0,4), from:(2,4) to:(4,4), from:(4,6) to:(4,4), from:(5,2) to:(5,4)]
+  XOX  
+  OOO  
+XOXOOXX
+OOXOOXX
+OXXXOOX
+  XOX  
+  XXX  
+solution progress: 4.816995639387694E-6 progressStep: 1.0800438653335218E-9 stepCounter=434974219: 
+turn: 15; last Move: from:(5,2) to:(5,4) possible Moves: [from:(2,4) to:(0,4), from:(2,4) to:(4,4), from:(6,4) to:(4,4), from:(4,6) to:(4,4)]
+  XOX  
+  OOO  
+XOXOOOX
+OOXOOOX
+OXXXOXX
+  XOX  
+  XXX  
+solution progress: 4.818075683253028E-6 progressStep: 1.0800438653335218E-9 stepCounter=434984714: 
+turn: 15; last Move: from:(5,2) to:(5,4) possible Moves: [from:(2,4) to:(0,4), from:(2,4) to:(4,4), from:(6,4) to:(4,4), from:(4,6) to:(4,4)]
+  XOX  
+  OOO  
+XOXOOOX
+OOXOOOX
+OXXXOXX
+  XOX  
+  XXX  
+solution progress: 4.819155727118361E-6 progressStep: 1.0800438653335218E-9 stepCounter=435000016: 
+turn: 15; last Move: from:(5,2) to:(5,4) possible Moves: [from:(2,4) to:(0,4), from:(2,4) to:(4,4), from:(6,4) to:(4,4), from:(4,6) to:(4,4)]
+  XOX  
+  OOO  
+XOXOOOX
+OOXOOOX
+OXXXOXX
+  XOX  
+  XXX  
+solution progress: 4.820235770983695E-6 progressStep: 1.0800438653335218E-9 stepCounter=435016414: 
+turn: 15; last Move: from:(5,2) to:(5,4) possible Moves: [from:(2,4) to:(0,4), from:(2,4) to:(4,4), from:(6,4) to:(4,4), from:(4,6) to:(4,4)]
+  XOX  
+  OOO  
+XOXOOOX
+OOXOOOX
+OXXXOXX
+  XOX  
+  XXX  
+solution progress: 4.82131581484903E-6 progressStep: 1.555263166080332E-7 stepCounter=435016816: 
+turn: 12; last Move: from:(3,5) to:(3,3) possible Moves: [from:(6,2) to:(4,2), from:(4,4) to:(4,2), from:(4,3) to:(2,3), from:(2,5) to:(2,3), from:(2,4) to:(0,4), from:(1,4) to:(3,4), from:(5,4) to:(3,4)]
+  XOX  
+  OOO  
+XOXOOXX
+OOOXXXX
+OXXOXXX
+  XOX  
+  XXX  
+solution progress: 4.82131581484903E-6 progressStep: 3.110526332160661E-8 stepCounter=435016816: 
+turn: 13; last Move: from:(2,5) to:(2,3) possible Moves: [from:(6,2) to:(4,2), from:(4,4) to:(4,2), from:(3,3) to:(1,3), from:(2,2) to:(2,4), from:(5,4) to:(3,4)]
+  XOX  
+  OOO  
+XOXOOXX
+OOXXXXX
+OXOOXXX
+  OOX  
+  XXX  
+solution progress: 4.82131581484903E-6 progressStep: 5.184210553601046E-9 stepCounter=435016816: 
+turn: 14; last Move: from:(6,2) to:(4,2) possible Moves: [from:(4,3) to:(4,1), from:(5,4) to:(5,2), from:(6,4) to:(6,2), from:(3,3) to:(1,3), from:(2,2) to:(2,4), from:(5,4) to:(3,4)]
+  XOX  
+  OOO  
+XOXOXOO
+OOXXXXX
+OXOOXXX
+  OOX  
+  XXX  
+solution progress: 4.826500025402631E-6 progressStep: 5.184210553601046E-9 stepCounter=435955527: 
+turn: 14; last Move: from:(6,2) to:(4,2) possible Moves: [from:(4,3) to:(4,1), from:(5,4) to:(5,2), from:(6,4) to:(6,2), from:(3,3) to:(1,3), from:(2,2) to:(2,4), from:(5,4) to:(3,4)]
+  XOX  
+  OOO  
+XOXOXOO
+OOXXXXX
+OXOOXXX
+  OOX  
+  XXX  
+solution progress: 4.831684235956232E-6 progressStep: 5.184210553601046E-9 stepCounter=436013280: 
+turn: 14; last Move: from:(6,2) to:(4,2) possible Moves: [from:(4,3) to:(4,1), from:(5,4) to:(5,2), from:(6,4) to:(6,2), from:(3,3) to:(1,3), from:(2,2) to:(2,4), from:(5,4) to:(3,4)]
+  XOX  
+  OOO  
+XOXOXOO
+OOXXXXX
+OXOOXXX
+  OOX  
+  XXX  
+solution progress: 4.836868446509833E-6 progressStep: 5.184210553601046E-9 stepCounter=436136937: 
+turn: 14; last Move: from:(6,2) to:(4,2) possible Moves: [from:(4,3) to:(4,1), from:(5,4) to:(5,2), from:(6,4) to:(6,2), from:(3,3) to:(1,3), from:(2,2) to:(2,4), from:(5,4) to:(3,4)]
+  XOX  
+  OOO  
+XOXOXOO
+OOXXXXX
+OXOOXXX
+  OOX  
+  XXX  
+solution progress: 4.842052657063434E-6 progressStep: 5.184210553601046E-9 stepCounter=436190573: 
+turn: 14; last Move: from:(6,2) to:(4,2) possible Moves: [from:(4,3) to:(4,1), from:(5,4) to:(5,2), from:(6,4) to:(6,2), from:(3,3) to:(1,3), from:(2,2) to:(2,4), from:(5,4) to:(3,4)]
+  XOX  
+  OOO  
+XOXOXOO
+OOXXXXX
+OXOOXXX
+  OOX  
+  XXX  
+solution progress: 4.847236867617035E-6 progressStep: 5.184210553601046E-9 stepCounter=436787419: 
+turn: 14; last Move: from:(6,2) to:(4,2) possible Moves: [from:(4,3) to:(4,1), from:(5,4) to:(5,2), from:(6,4) to:(6,2), from:(3,3) to:(1,3), from:(2,2) to:(2,4), from:(5,4) to:(3,4)]
+  XOX  
+  OOO  
+XOXOXOO
+OOXXXXX
+OXOOXXX
+  OOX  
+  XXX  
+solution progress: 4.852421078170636E-6 progressStep: 3.110526332160661E-8 stepCounter=437932665: 
+turn: 13; last Move: from:(2,5) to:(2,3) possible Moves: [from:(6,2) to:(4,2), from:(4,4) to:(4,2), from:(3,3) to:(1,3), from:(2,2) to:(2,4), from:(5,4) to:(3,4)]
+  XOX  
+  OOO  
+XOXOOXX
+OOXXXXX
+OXOOXXX
+  OOX  
+  XXX  
+solution progress: 4.852421078170636E-6 progressStep: 4.443609045943754E-9 stepCounter=437932665: 
+turn: 14; last Move: from:(4,4) to:(4,2) possible Moves: [from:(5,2) to:(3,2), from:(3,3) to:(1,3), from:(2,3) to:(4,3), from:(6,3) to:(4,3), from:(2,2) to:(2,4), from:(6,4) to:(4,4), from:(4,6) to:(4,4)]
+  XOX  
+  OOO  
+XOXOXXX
+OOXXOXX
+OXOOOXX
+  OOX  
+  XXX  
+solution progress: 4.85686468721658E-6 progressStep: 4.443609045943754E-9 stepCounter=438181480: 
+turn: 14; last Move: from:(4,4) to:(4,2) possible Moves: [from:(5,2) to:(3,2), from:(3,3) to:(1,3), from:(2,3) to:(4,3), from:(6,3) to:(4,3), from:(2,2) to:(2,4), from:(6,4) to:(4,4), from:(4,6) to:(4,4)]
+  XOX  
+  OOO  
+XOXOXXX
+OOXXOXX
+OXOOOXX
+  OOX  
+  XXX  
+solution progress: 4.8613082962625234E-6 progressStep: 4.443609045943754E-9 stepCounter=438267200: 
+turn: 14; last Move: from:(4,4) to:(4,2) possible Moves: [from:(5,2) to:(3,2), from:(3,3) to:(1,3), from:(2,3) to:(4,3), from:(6,3) to:(4,3), from:(2,2) to:(2,4), from:(6,4) to:(4,4), from:(4,6) to:(4,4)]
+  XOX  
+  OOO  
+XOXOXXX
+OOXXOXX
+OXOOOXX
+  OOX  
+  XXX  
+solution progress: 4.865751905308467E-6 progressStep: 4.443609045943754E-9 stepCounter=438292053: 
+turn: 14; last Move: from:(4,4) to:(4,2) possible Moves: [from:(5,2) to:(3,2), from:(3,3) to:(1,3), from:(2,3) to:(4,3), from:(6,3) to:(4,3), from:(2,2) to:(2,4), from:(6,4) to:(4,4), from:(4,6) to:(4,4)]
+  XOX  
+  OOO  
+XOXOXXX
+OOXXOXX
+OXOOOXX
+  OOX  
+  XXX  
+solution progress: 4.8701955143544105E-6 progressStep: 4.443609045943754E-9 stepCounter=438542347: 
+turn: 14; last Move: from:(4,4) to:(4,2) possible Moves: [from:(5,2) to:(3,2), from:(3,3) to:(1,3), from:(2,3) to:(4,3), from:(6,3) to:(4,3), from:(2,2) to:(2,4), from:(6,4) to:(4,4), from:(4,6) to:(4,4)]
+  XOX  
+  OOO  
+XOXOXXX
+OOXXOXX
+OXOOOXX
+  OOX  
+  XXX  
+solution progress: 4.874639123400354E-6 progressStep: 4.443609045943754E-9 stepCounter=438742063: 
+turn: 14; last Move: from:(4,4) to:(4,2) possible Moves: [from:(5,2) to:(3,2), from:(3,3) to:(1,3), from:(2,3) to:(4,3), from:(6,3) to:(4,3), from:(2,2) to:(2,4), from:(6,4) to:(4,4), from:(4,6) to:(4,4)]
+  XOX  
+  OOO  
+XOXOXXX
+OOXXOXX
+OXOOOXX
+  OOX  
+  XXX  
+solution progress: 4.8790827324462975E-6 progressStep: 4.443609045943754E-9 stepCounter=438816643: 
+turn: 14; last Move: from:(4,4) to:(4,2) possible Moves: [from:(5,2) to:(3,2), from:(3,3) to:(1,3), from:(2,3) to:(4,3), from:(6,3) to:(4,3), from:(2,2) to:(2,4), from:(6,4) to:(4,4), from:(4,6) to:(4,4)]
+  XOX  
+  OOO  
+XOXOXXX
+OOXXOXX
+OXOOOXX
+  OOX  
+  XXX  
+solution progress: 4.883526341492243E-6 progressStep: 3.110526332160661E-8 stepCounter=439040140: 
+turn: 13; last Move: from:(2,5) to:(2,3) possible Moves: [from:(6,2) to:(4,2), from:(4,4) to:(4,2), from:(3,3) to:(1,3), from:(2,2) to:(2,4), from:(5,4) to:(3,4)]
+  XOX  
+  OOO  
+XOXOOXX
+OOXXXXX
+OXOOXXX
+  OOX  
+  XXX  
+solution progress: 4.883526341492243E-6 progressStep: 6.221052664321255E-9 stepCounter=439040140: 
+turn: 14; last Move: from:(3,3) to:(1,3) possible Moves: [from:(1,4) to:(1,2), from:(6,2) to:(4,2), from:(4,4) to:(4,2), from:(5,3) to:(3,3), from:(5,4) to:(3,4)]
+  XOX  
+  OOO  
+XOXOOXX
+OXOOXXX
+OXOOXXX
+  OOX  
+  XXX  
+solution progress: 4.883526341492243E-6 progressStep: 1.555263166080229E-9 stepCounter=439040140: 
+turn: 15; last Move: from:(1,4) to:(1,2) possible Moves: [from:(6,2) to:(4,2), from:(4,4) to:(4,2), from:(5,3) to:(3,3), from:(5,4) to:(3,4)]
+  XOX  
+  OOO  
+XXXOOXX
+OOOOXXX
+OOOOXXX
+  OOX  
+  XXX  
+solution progress: 4.885081604658323E-6 progressStep: 1.555263166080229E-9 stepCounter=439046020: 
+turn: 15; last Move: from:(1,4) to:(1,2) possible Moves: [from:(6,2) to:(4,2), from:(4,4) to:(4,2), from:(5,3) to:(3,3), from:(5,4) to:(3,4)]
+  XOX  
+  OOO  
+XXXOOXX
+OOOOXXX
+OOOOXXX
+  OOX  
+  XXX  
+solution progress: 4.8866368678244036E-6 progressStep: 1.555263166080229E-9 stepCounter=439058050: 
+turn: 15; last Move: from:(1,4) to:(1,2) possible Moves: [from:(6,2) to:(4,2), from:(4,4) to:(4,2), from:(5,3) to:(3,3), from:(5,4) to:(3,4)]
+  XOX  
+  OOO  
+XXXOOXX
+OOOOXXX
+OOOOXXX
+  OOX  
+  XXX  
+solution progress: 4.888192130990484E-6 progressStep: 1.555263166080229E-9 stepCounter=439058710: 
+turn: 15; last Move: from:(1,4) to:(1,2) possible Moves: [from:(6,2) to:(4,2), from:(4,4) to:(4,2), from:(5,3) to:(3,3), from:(5,4) to:(3,4)]
+  XOX  
+  OOO  
+XXXOOXX
+OOOOXXX
+OOOOXXX
+  OOX  
+  XXX  
+solution progress: 4.889747394156564E-6 progressStep: 6.221052664321255E-9 stepCounter=439066261: 
+turn: 14; last Move: from:(3,3) to:(1,3) possible Moves: [from:(1,4) to:(1,2), from:(6,2) to:(4,2), from:(4,4) to:(4,2), from:(5,3) to:(3,3), from:(5,4) to:(3,4)]
+  XOX  
+  OOO  
+XOXOOXX
+OXOOXXX
+OXOOXXX
+  OOX  
+  XXX  
+solution progress: 4.889747394156564E-6 progressStep: 1.0368421107201527E-9 stepCounter=439066261: 
+turn: 15; last Move: from:(6,2) to:(4,2) possible Moves: [from:(4,3) to:(4,1), from:(1,4) to:(1,2), from:(5,4) to:(5,2), from:(6,4) to:(6,2), from:(5,3) to:(3,3), from:(5,4) to:(3,4)]
+  XOX  
+  OOO  
+XOXOXOO
+OXOOXXX
+OXOOXXX
+  OOX  
+  XXX  
+solution progress: 4.890784236267284E-6 progressStep: 1.0368421107201527E-9 stepCounter=439084926: 
+turn: 15; last Move: from:(6,2) to:(4,2) possible Moves: [from:(4,3) to:(4,1), from:(1,4) to:(1,2), from:(5,4) to:(5,2), from:(6,4) to:(6,2), from:(5,3) to:(3,3), from:(5,4) to:(3,4)]
+  XOX  
+  OOO  
+XOXOXOO
+OXOOXXX
+OXOOXXX
+  OOX  
+  XXX  
+solution progress: 4.891821078378004E-6 progressStep: 1.0368421107201527E-9 stepCounter=439090806: 
+turn: 15; last Move: from:(6,2) to:(4,2) possible Moves: [from:(4,3) to:(4,1), from:(1,4) to:(1,2), from:(5,4) to:(5,2), from:(6,4) to:(6,2), from:(5,3) to:(3,3), from:(5,4) to:(3,4)]
+  XOX  
+  OOO  
+XOXOXOO
+OXOOXXX
+OXOOXXX
+  OOX  
+  XXX  
+solution progress: 4.892857920488724E-6 progressStep: 1.0368421107201527E-9 stepCounter=439092748: 
+turn: 15; last Move: from:(6,2) to:(4,2) possible Moves: [from:(4,3) to:(4,1), from:(1,4) to:(1,2), from:(5,4) to:(5,2), from:(6,4) to:(6,2), from:(5,3) to:(3,3), from:(5,4) to:(3,4)]
+  XOX  
+  OOO  
+XOXOXOO
+OXOOXXX
+OXOOXXX
+  OOX  
+  XXX  
+solution progress: 4.893894762599444E-6 progressStep: 1.0368421107201527E-9 stepCounter=439096070: 
+turn: 15; last Move: from:(6,2) to:(4,2) possible Moves: [from:(4,3) to:(4,1), from:(1,4) to:(1,2), from:(5,4) to:(5,2), from:(6,4) to:(6,2), from:(5,3) to:(3,3), from:(5,4) to:(3,4)]
+  XOX  
+  OOO  
+XOXOXOO
+OXOOXXX
+OXOOXXX
+  OOX  
+  XXX  
+solution progress: 4.894931604710164E-6 progressStep: 1.0368421107201527E-9 stepCounter=439097283: 
+turn: 15; last Move: from:(6,2) to:(4,2) possible Moves: [from:(4,3) to:(4,1), from:(1,4) to:(1,2), from:(5,4) to:(5,2), from:(6,4) to:(6,2), from:(5,3) to:(3,3), from:(5,4) to:(3,4)]
+  XOX  
+  OOO  
+XOXOXOO
+OXOOXXX
+OXOOXXX
+  OOX  
+  XXX  
+solution progress: 4.8959684468208845E-6 progressStep: 6.221052664321255E-9 stepCounter=439119897: 
+turn: 14; last Move: from:(3,3) to:(1,3) possible Moves: [from:(1,4) to:(1,2), from:(6,2) to:(4,2), from:(4,4) to:(4,2), from:(5,3) to:(3,3), from:(5,4) to:(3,4)]
+  XOX  
+  OOO  
+XOXOOXX
+OXOOXXX
+OXOOXXX
+  OOX  
+  XXX  
+solution progress: 4.8959684468208845E-6 progressStep: 1.2442105328641833E-9 stepCounter=439119897: 
+turn: 15; last Move: from:(4,4) to:(4,2) possible Moves: [from:(1,4) to:(1,2), from:(5,2) to:(3,2), from:(6,3) to:(4,3), from:(6,4) to:(4,4), from:(4,6) to:(4,4)]
+  XOX  
+  OOO  
+XOXOXXX
+OXOOOXX
+OXOOOXX
+  OOX  
+  XXX  
+solution progress: 4.897212657353749E-6 progressStep: 1.2442105328641833E-9 stepCounter=439131927: 
+turn: 15; last Move: from:(4,4) to:(4,2) possible Moves: [from:(1,4) to:(1,2), from:(5,2) to:(3,2), from:(6,3) to:(4,3), from:(6,4) to:(4,4), from:(4,6) to:(4,4)]
+  XOX  
+  OOO  
+XOXOXXX
+OXOOOXX
+OXOOOXX
+  OOX  
+  XXX  
+solution progress: 4.898456867886613E-6 progressStep: 1.2442105328641833E-9 stepCounter=439158358: 
+turn: 15; last Move: from:(4,4) to:(4,2) possible Moves: [from:(1,4) to:(1,2), from:(5,2) to:(3,2), from:(6,3) to:(4,3), from:(6,4) to:(4,4), from:(4,6) to:(4,4)]
+  XOX  
+  OOO  
+XOXOXXX
+OXOOOXX
+OXOOOXX
+  OOX  
+  XXX  
+solution progress: 4.8997010784194776E-6 progressStep: 1.2442105328641833E-9 stepCounter=439182149: 
+turn: 15; last Move: from:(4,4) to:(4,2) possible Moves: [from:(1,4) to:(1,2), from:(5,2) to:(3,2), from:(6,3) to:(4,3), from:(6,4) to:(4,4), from:(4,6) to:(4,4)]
+  XOX  
+  OOO  
+XOXOXXX
+OXOOOXX
+OXOOOXX
+  OOX  
+  XXX  
+solution progress: 4.900945288952342E-6 progressStep: 1.2442105328641833E-9 stepCounter=439187063: 
+turn: 15; last Move: from:(4,4) to:(4,2) possible Moves: [from:(1,4) to:(1,2), from:(5,2) to:(3,2), from:(6,3) to:(4,3), from:(6,4) to:(4,4), from:(4,6) to:(4,4)]
+  XOX  
+  OOO  
+XOXOXXX
+OXOOOXX
+OXOOOXX
+  OOX  
+  XXX  
+solution progress: 4.9021894994852054E-6 progressStep: 6.221052664321255E-9 stepCounter=439205617: 
+turn: 14; last Move: from:(3,3) to:(1,3) possible Moves: [from:(1,4) to:(1,2), from:(6,2) to:(4,2), from:(4,4) to:(4,2), from:(5,3) to:(3,3), from:(5,4) to:(3,4)]
+  XOX  
+  OOO  
+XOXOOXX
+OXOOXXX
+OXOOXXX
+  OOX  
+  XXX  
+solution progress: 4.9021894994852054E-6 progressStep: 1.555263166080229E-9 stepCounter=439205617: 
+turn: 15; last Move: from:(5,3) to:(3,3) possible Moves: [from:(1,4) to:(1,2), from:(6,2) to:(4,2), from:(4,5) to:(4,3), from:(5,4) to:(3,4)]
+  XOX  
+  OOO  
+XOXOOXX
+OXOXOOX
+OXOOXXX
+  OOX  
+  XXX  
+solution progress: 4.903744762651286E-6 progressStep: 1.555263166080229E-9 stepCounter=439206277: 
+turn: 15; last Move: from:(5,3) to:(3,3) possible Moves: [from:(1,4) to:(1,2), from:(6,2) to:(4,2), from:(4,5) to:(4,3), from:(5,4) to:(3,4)]
+  XOX  
+  OOO  
+XOXOOXX
+OXOXOOX
+OXOOXXX
+  OOX  
+  XXX  
+solution progress: 4.905300025817366E-6 progressStep: 1.555263166080229E-9 stepCounter=439207490: 
+turn: 15; last Move: from:(5,3) to:(3,3) possible Moves: [from:(1,4) to:(1,2), from:(6,2) to:(4,2), from:(4,5) to:(4,3), from:(5,4) to:(3,4)]
+  XOX  
+  OOO  
+XOXOOXX
+OXOXOOX
+OXOOXXX
+  OOX  
+  XXX  
+solution progress: 4.906855288983447E-6 progressStep: 1.555263166080229E-9 stepCounter=439208369: 
+turn: 15; last Move: from:(5,3) to:(3,3) possible Moves: [from:(1,4) to:(1,2), from:(6,2) to:(4,2), from:(4,5) to:(4,3), from:(5,4) to:(3,4)]
+  XOX  
+  OOO  
+XOXOOXX
+OXOXOOX
+OXOOXXX
+  OOX  
+  XXX  
+solution progress: 4.908410552149526E-6 progressStep: 6.221052664321255E-9 stepCounter=439210678: 
+turn: 14; last Move: from:(3,3) to:(1,3) possible Moves: [from:(1,4) to:(1,2), from:(6,2) to:(4,2), from:(4,4) to:(4,2), from:(5,3) to:(3,3), from:(5,4) to:(3,4)]
+  XOX  
+  OOO  
+XOXOOXX
+OXOOXXX
+OXOOXXX
+  OOX  
+  XXX  
+solution progress: 4.908410552149526E-6 progressStep: 1.2442105328641833E-9 stepCounter=439210678: 
+turn: 15; last Move: from:(5,4) to:(3,4) possible Moves: [from:(1,4) to:(1,2), from:(6,2) to:(4,2), from:(5,3) to:(3,3), from:(4,6) to:(4,4), from:(5,2) to:(5,4)]
+  XOX  
+  OOO  
+XOXOOXX
+OXOOXXX
+OXOXOOX
+  OOX  
+  XXX  
+solution progress: 4.909654762682391E-6 progressStep: 1.2442105328641833E-9 stepCounter=439218228: 
+turn: 15; last Move: from:(5,4) to:(3,4) possible Moves: [from:(1,4) to:(1,2), from:(6,2) to:(4,2), from:(5,3) to:(3,3), from:(4,6) to:(4,4), from:(5,2) to:(5,4)]
+  XOX  
+  OOO  
+XOXOOXX
+OXOOXXX
+OXOXOOX
+  OOX  
+  XXX  
+solution progress: 4.910898973215255E-6 progressStep: 1.2442105328641833E-9 stepCounter=439239717: 
+turn: 15; last Move: from:(5,4) to:(3,4) possible Moves: [from:(1,4) to:(1,2), from:(6,2) to:(4,2), from:(5,3) to:(3,3), from:(4,6) to:(4,4), from:(5,2) to:(5,4)]
+  XOX  
+  OOO  
+XOXOOXX
+OXOOXXX
+OXOXOOX
+  OOX  
+  XXX  
+solution progress: 4.912143183748119E-6 progressStep: 1.2442105328641833E-9 stepCounter=439243253: 
+turn: 15; last Move: from:(5,4) to:(3,4) possible Moves: [from:(1,4) to:(1,2), from:(6,2) to:(4,2), from:(5,3) to:(3,3), from:(4,6) to:(4,4), from:(5,2) to:(5,4)]
+  XOX  
+  OOO  
+XOXOOXX
+OXOOXXX
+OXOXOOX
+  OOX  
+  XXX  
+solution progress: 4.913387394280984E-6 progressStep: 1.2442105328641833E-9 stepCounter=439278639: 
+turn: 15; last Move: from:(5,4) to:(3,4) possible Moves: [from:(1,4) to:(1,2), from:(6,2) to:(4,2), from:(5,3) to:(3,3), from:(4,6) to:(4,4), from:(5,2) to:(5,4)]
+  XOX  
+  OOO  
+XOXOOXX
+OXOOXXX
+OXOXOOX
+  OOX  
+  XXX  
+solution progress: 4.914631604813849E-6 progressStep: 3.110526332160661E-8 stepCounter=439280147: 
+turn: 13; last Move: from:(2,5) to:(2,3) possible Moves: [from:(6,2) to:(4,2), from:(4,4) to:(4,2), from:(3,3) to:(1,3), from:(2,2) to:(2,4), from:(5,4) to:(3,4)]
+  XOX  
+  OOO  
+XOXOOXX
+OOXXXXX
+OXOOXXX
+  OOX  
+  XXX  
+solution progress: 4.914631604813849E-6 progressStep: 6.221052664321255E-9 stepCounter=439280147: 
+turn: 14; last Move: from:(2,2) to:(2,4) possible Moves: [from:(6,2) to:(4,2), from:(4,4) to:(4,2), from:(4,3) to:(2,3), from:(1,4) to:(3,4), from:(5,4) to:(3,4)]
+  XOX  
+  OOO  
+XOOOOXX
+OOOXXXX
+OXXOXXX
+  OOX  
+  XXX  
+solution progress: 4.914631604813849E-6 progressStep: 1.0368421107201527E-9 stepCounter=439280147: 
+turn: 15; last Move: from:(6,2) to:(4,2) possible Moves: [from:(4,3) to:(4,1), from:(5,4) to:(5,2), from:(6,4) to:(6,2), from:(4,3) to:(2,3), from:(1,4) to:(3,4), from:(5,4) to:(3,4)]
+  XOX  
+  OOO  
+XOOOXOO
+OOOXXXX
+OXXOXXX
+  OOX  
+  XXX  
+solution progress: 4.915668446924569E-6 progressStep: 1.0368421107201527E-9 stepCounter=439471470: 
+turn: 15; last Move: from:(6,2) to:(4,2) possible Moves: [from:(4,3) to:(4,1), from:(5,4) to:(5,2), from:(6,4) to:(6,2), from:(4,3) to:(2,3), from:(1,4) to:(3,4), from:(5,4) to:(3,4)]
+  XOX  
+  OOO  
+XOOOXOO
+OOOXXXX
+OXXOXXX
+  OOX  
+  XXX  
+solution progress: 4.916705289035289E-6 progressStep: 1.0368421107201527E-9 stepCounter=439491412: 
+turn: 15; last Move: from:(6,2) to:(4,2) possible Moves: [from:(4,3) to:(4,1), from:(5,4) to:(5,2), from:(6,4) to:(6,2), from:(4,3) to:(2,3), from:(1,4) to:(3,4), from:(5,4) to:(3,4)]
+  XOX  
+  OOO  
+XOOOXOO
+OOOXXXX
+OXXOXXX
+  OOX  
+  XXX  
+solution progress: 4.917742131146009E-6 progressStep: 1.0368421107201527E-9 stepCounter=439529841: 
+turn: 15; last Move: from:(6,2) to:(4,2) possible Moves: [from:(4,3) to:(4,1), from:(5,4) to:(5,2), from:(6,4) to:(6,2), from:(4,3) to:(2,3), from:(1,4) to:(3,4), from:(5,4) to:(3,4)]
+  XOX  
+  OOO  
+XOOOXOO
+OOOXXXX
+OXXOXXX
+  OOX  
+  XXX  
+solution progress: 4.918778973256729E-6 progressStep: 1.0368421107201527E-9 stepCounter=439540606: 
+turn: 15; last Move: from:(6,2) to:(4,2) possible Moves: [from:(4,3) to:(4,1), from:(5,4) to:(5,2), from:(6,4) to:(6,2), from:(4,3) to:(2,3), from:(1,4) to:(3,4), from:(5,4) to:(3,4)]
+  XOX  
+  OOO  
+XOOOXOO
+OOOXXXX
+OXXOXXX
+  OOX  
+  XXX  
+solution progress: 4.919815815367449E-6 progressStep: 1.0368421107201527E-9 stepCounter=439699465: 
+turn: 15; last Move: from:(6,2) to:(4,2) possible Moves: [from:(4,3) to:(4,1), from:(5,4) to:(5,2), from:(6,4) to:(6,2), from:(4,3) to:(2,3), from:(1,4) to:(3,4), from:(5,4) to:(3,4)]
+  XOX  
+  OOO  
+XOOOXOO
+OOOXXXX
+OXXOXXX
+  OOX  
+  XXX  
+solution progress: 4.92085265747817E-6 progressStep: 6.221052664321255E-9 stepCounter=439876993: 
+turn: 14; last Move: from:(2,2) to:(2,4) possible Moves: [from:(6,2) to:(4,2), from:(4,4) to:(4,2), from:(4,3) to:(2,3), from:(1,4) to:(3,4), from:(5,4) to:(3,4)]
+  XOX  
+  OOO  
+XOOOOXX
+OOOXXXX
+OXXOXXX
+  OOX  
+  XXX  
+solution progress: 4.92085265747817E-6 progressStep: 1.2442105328641833E-9 stepCounter=439876993: 
+turn: 15; last Move: from:(4,4) to:(4,2) possible Moves: [from:(5,2) to:(3,2), from:(6,3) to:(4,3), from:(1,4) to:(3,4), from:(6,4) to:(4,4), from:(4,6) to:(4,4)]
+  XOX  
+  OOO  
+XOOOXXX
+OOOXOXX
+OXXOOXX
+  OOX  
+  XXX  
+solution progress: 4.922096868011034E-6 progressStep: 1.2442105328641833E-9 stepCounter=439919227: 
+turn: 15; last Move: from:(4,4) to:(4,2) possible Moves: [from:(5,2) to:(3,2), from:(6,3) to:(4,3), from:(1,4) to:(3,4), from:(6,4) to:(4,4), from:(4,6) to:(4,4)]
+  XOX  
+  OOO  
+XOOOXXX
+OOOXOXX
+OXXOOXX
+  OOX  
+  XXX  
+solution progress: 4.9233410785438986E-6 progressStep: 1.2442105328641833E-9 stepCounter=439960648: 
+turn: 15; last Move: from:(4,4) to:(4,2) possible Moves: [from:(5,2) to:(3,2), from:(6,3) to:(4,3), from:(1,4) to:(3,4), from:(6,4) to:(4,4), from:(4,6) to:(4,4)]
+  XOX  
+  OOO  
+XOOOXXX
+OOOXOXX
+OXXOOXX
+  OOX  
+  XXX  
+solution progress: 4.924585289076763E-6 progressStep: 1.2442105328641833E-9 stepCounter=440011648: 
+turn: 15; last Move: from:(4,4) to:(4,2) possible Moves: [from:(5,2) to:(3,2), from:(6,3) to:(4,3), from:(1,4) to:(3,4), from:(6,4) to:(4,4), from:(4,6) to:(4,4)]
+  XOX  
+  OOO  
+XOOOXXX
+OOOXOXX
+OXXOOXX
+  OOX  
+  XXX  
+solution progress: 4.925829499609627E-6 progressStep: 1.2442105328641833E-9 stepCounter=440034178: 
+turn: 15; last Move: from:(4,4) to:(4,2) possible Moves: [from:(5,2) to:(3,2), from:(6,3) to:(4,3), from:(1,4) to:(3,4), from:(6,4) to:(4,4), from:(4,6) to:(4,4)]
+  XOX  
+  OOO  
+XOOOXXX
+OOOXOXX
+OXXOOXX
+  OOX  
+  XXX  
+solution progress: 4.927073710142491E-6 progressStep: 6.221052664321255E-9 stepCounter=440076709: 
+turn: 14; last Move: from:(2,2) to:(2,4) possible Moves: [from:(6,2) to:(4,2), from:(4,4) to:(4,2), from:(4,3) to:(2,3), from:(1,4) to:(3,4), from:(5,4) to:(3,4)]
+  XOX  
+  OOO  
+XOOOOXX
+OOOXXXX
+OXXOXXX
+  OOX  
+  XXX  
+solution progress: 4.927073710142491E-6 progressStep: 1.0368421107201527E-9 stepCounter=440076709: 
+turn: 15; last Move: from:(4,3) to:(2,3) possible Moves: [from:(2,4) to:(2,2), from:(6,2) to:(4,2), from:(6,3) to:(4,3), from:(4,5) to:(4,3), from:(1,4) to:(3,4), from:(5,4) to:(3,4)]
+  XOX  
+  OOO  
+XOOOOXX
+OOXOOXX
+OXXOXXX
+  OOX  
+  XXX  
+solution progress: 4.928110552253211E-6 progressStep: 1.0368421107201527E-9 stepCounter=440079535: 
+turn: 15; last Move: from:(4,3) to:(2,3) possible Moves: [from:(2,4) to:(2,2), from:(6,2) to:(4,2), from:(6,3) to:(4,3), from:(4,5) to:(4,3), from:(1,4) to:(3,4), from:(5,4) to:(3,4)]
+  XOX  
+  OOO  
+XOOOOXX
+OOXOOXX
+OXXOXXX
+  OOX  
+  XXX  
+solution progress: 4.929147394363931E-6 progressStep: 1.0368421107201527E-9 stepCounter=440090300: 
+turn: 15; last Move: from:(4,3) to:(2,3) possible Moves: [from:(2,4) to:(2,2), from:(6,2) to:(4,2), from:(6,3) to:(4,3), from:(4,5) to:(4,3), from:(1,4) to:(3,4), from:(5,4) to:(3,4)]
+  XOX  
+  OOO  
+XOOOOXX
+OOXOOXX
+OXXOXXX
+  OOX  
+  XXX  
+solution progress: 4.930184236474651E-6 progressStep: 1.0368421107201527E-9 stepCounter=440118931: 
+turn: 15; last Move: from:(4,3) to:(2,3) possible Moves: [from:(2,4) to:(2,2), from:(6,2) to:(4,2), from:(6,3) to:(4,3), from:(4,5) to:(4,3), from:(1,4) to:(3,4), from:(5,4) to:(3,4)]
+  XOX  
+  OOO  
+XOOOOXX
+OOXOOXX
+OXXOXXX
+  OOX  
+  XXX  
+solution progress: 4.931221078585371E-6 progressStep: 1.0368421107201527E-9 stepCounter=440137859: 
+turn: 15; last Move: from:(4,3) to:(2,3) possible Moves: [from:(2,4) to:(2,2), from:(6,2) to:(4,2), from:(6,3) to:(4,3), from:(4,5) to:(4,3), from:(1,4) to:(3,4), from:(5,4) to:(3,4)]
+  XOX  
+  OOO  
+XOOOOXX
+OOXOOXX
+OXXOXXX
+  OOX  
+  XXX  
+solution progress: 4.932257920696091E-6 progressStep: 1.0368421107201527E-9 stepCounter=440174862: 
+turn: 15; last Move: from:(4,3) to:(2,3) possible Moves: [from:(2,4) to:(2,2), from:(6,2) to:(4,2), from:(6,3) to:(4,3), from:(4,5) to:(4,3), from:(1,4) to:(3,4), from:(5,4) to:(3,4)]
+  XOX  
+  OOO  
+XOOOOXX
+OOXOOXX
+OXXOXXX
+  OOX  
+  XXX  
+solution progress: 4.933294762806812E-6 progressStep: 6.221052664321255E-9 stepCounter=440206829: 
+turn: 14; last Move: from:(2,2) to:(2,4) possible Moves: [from:(6,2) to:(4,2), from:(4,4) to:(4,2), from:(4,3) to:(2,3), from:(1,4) to:(3,4), from:(5,4) to:(3,4)]
+  XOX  
+  OOO  
+XOOOOXX
+OOOXXXX
+OXXOXXX
+  OOX  
+  XXX  
+solution progress: 4.933294762806812E-6 progressStep: 1.2442105328641833E-9 stepCounter=440206829: 
+turn: 15; last Move: from:(1,4) to:(3,4) possible Moves: [from:(6,2) to:(4,2), from:(4,4) to:(4,2), from:(4,3) to:(2,3), from:(4,4) to:(2,4), from:(3,3) to:(3,5)]
+  XOX  
+  OOO  
+XOOOOXX
+OOOXXXX
+OOOXXXX
+  OOX  
+  XXX  
+solution progress: 4.934538973339676E-6 progressStep: 1.2442105328641833E-9 stepCounter=440365688: 
+turn: 15; last Move: from:(1,4) to:(3,4) possible Moves: [from:(6,2) to:(4,2), from:(4,4) to:(4,2), from:(4,3) to:(2,3), from:(4,4) to:(2,4), from:(3,3) to:(3,5)]
+  XOX  
+  OOO  
+XOOOOXX
+OOOXXXX
+OOOXXXX
+  OOX  
+  XXX  
+solution progress: 4.93578318387254E-6 progressStep: 1.2442105328641833E-9 stepCounter=440416688: 
+turn: 15; last Move: from:(1,4) to:(3,4) possible Moves: [from:(6,2) to:(4,2), from:(4,4) to:(4,2), from:(4,3) to:(2,3), from:(4,4) to:(2,4), from:(3,3) to:(3,5)]
+  XOX  
+  OOO  
+XOOOOXX
+OOOXXXX
+OOOXXXX
+  OOX  
+  XXX  
+solution progress: 4.937027394405405E-6 progressStep: 1.2442105328641833E-9 stepCounter=440453691: 
+turn: 15; last Move: from:(1,4) to:(3,4) possible Moves: [from:(6,2) to:(4,2), from:(4,4) to:(4,2), from:(4,3) to:(2,3), from:(4,4) to:(2,4), from:(3,3) to:(3,5)]
+  XOX  
+  OOO  
+XOOOOXX
+OOOXXXX
+OOOXXXX
+  OOX  
+  XXX  
+solution progress: 4.938271604938269E-6 progressStep: 1.2442105328641833E-9 stepCounter=440497755: 
+turn: 15; last Move: from:(1,4) to:(3,4) possible Moves: [from:(6,2) to:(4,2), from:(4,4) to:(4,2), from:(4,3) to:(2,3), from:(4,4) to:(2,4), from:(3,3) to:(3,5)]
+  XOX  
+  OOO  
+XOOOOXX
+OOOXXXX
+OOOXXXX
+  OOX  
+  XXX  
+solution progress: 4.939515815471133E-6 progressStep: 6.221052664321255E-9 stepCounter=440632671: 
+turn: 14; last Move: from:(2,2) to:(2,4) possible Moves: [from:(6,2) to:(4,2), from:(4,4) to:(4,2), from:(4,3) to:(2,3), from:(1,4) to:(3,4), from:(5,4) to:(3,4)]
+  XOX  
+  OOO  
+XOOOOXX
+OOOXXXX
+OXXOXXX
+  OOX  
+  XXX  
+solution progress: 4.939515815471133E-6 progressStep: 1.0368421107201527E-9 stepCounter=440632671: 
+turn: 15; last Move: from:(5,4) to:(3,4) possible Moves: [from:(6,2) to:(4,2), from:(4,3) to:(2,3), from:(2,4) to:(4,4), from:(4,6) to:(4,4), from:(5,2) to:(5,4), from:(3,3) to:(3,5)]
+  XOX  
+  OOO  
+XOOOOXX
+OOOXXXX
+OXXXOOX
+  OOX  
+  XXX  
+solution progress: 4.940552657581853E-6 progressStep: 1.0368421107201527E-9 stepCounter=440797592: 
+turn: 15; last Move: from:(5,4) to:(3,4) possible Moves: [from:(6,2) to:(4,2), from:(4,3) to:(2,3), from:(2,4) to:(4,4), from:(4,6) to:(4,4), from:(5,2) to:(5,4), from:(3,3) to:(3,5)]
+  XOX  
+  OOO  
+XOOOOXX
+OOOXXXX
+OXXXOOX
+  OOX  
+  XXX  
+solution progress: 4.941589499692573E-6 progressStep: 1.0368421107201527E-9 stepCounter=440829558: 
+turn: 15; last Move: from:(5,4) to:(3,4) possible Moves: [from:(6,2) to:(4,2), from:(4,3) to:(2,3), from:(2,4) to:(4,4), from:(4,6) to:(4,4), from:(5,2) to:(5,4), from:(3,3) to:(3,5)]
+  XOX  
+  OOO  
+XOOOOXX
+OOOXXXX
+OXXXOOX
+  OOX  
+  XXX  
+solution progress: 4.942626341803293E-6 progressStep: 1.0368421107201527E-9 stepCounter=440829935: 
+turn: 15; last Move: from:(5,4) to:(3,4) possible Moves: [from:(6,2) to:(4,2), from:(4,3) to:(2,3), from:(2,4) to:(4,4), from:(4,6) to:(4,4), from:(5,2) to:(5,4), from:(3,3) to:(3,5)]
+  XOX  
+  OOO  
+XOOOOXX
+OOOXXXX
+OXXXOOX
+  OOX  
+  XXX  
+solution progress: 4.943663183914013E-6 progressStep: 1.0368421107201527E-9 stepCounter=441117049: 
+turn: 15; last Move: from:(5,4) to:(3,4) possible Moves: [from:(6,2) to:(4,2), from:(4,3) to:(2,3), from:(2,4) to:(4,4), from:(4,6) to:(4,4), from:(5,2) to:(5,4), from:(3,3) to:(3,5)]
+  XOX  
+  OOO  
+XOOOOXX
+OOOXXXX
+OXXXOOX
+  OOX  
+  XXX  
+solution progress: 4.944700026024733E-6 progressStep: 1.0368421107201527E-9 stepCounter=441147319: 
+turn: 15; last Move: from:(5,4) to:(3,4) possible Moves: [from:(6,2) to:(4,2), from:(4,3) to:(2,3), from:(2,4) to:(4,4), from:(4,6) to:(4,4), from:(5,2) to:(5,4), from:(3,3) to:(3,5)]
+  XOX  
+  OOO  
+XOOOOXX
+OOOXXXX
+OXXXOOX
+  OOX  
+  XXX  
+solution progress: 4.945736868135455E-6 progressStep: 3.110526332160661E-8 stepCounter=441266006: 
+turn: 13; last Move: from:(2,5) to:(2,3) possible Moves: [from:(6,2) to:(4,2), from:(4,4) to:(4,2), from:(3,3) to:(1,3), from:(2,2) to:(2,4), from:(5,4) to:(3,4)]
+  XOX  
+  OOO  
+XOXOOXX
+OOXXXXX
+OXOOXXX
+  OOX  
+  XXX  
+solution progress: 4.945736868135455E-6 progressStep: 5.184210553601046E-9 stepCounter=441266006: 
+turn: 14; last Move: from:(5,4) to:(3,4) possible Moves: [from:(6,2) to:(4,2), from:(3,3) to:(1,3), from:(2,2) to:(2,4), from:(4,6) to:(4,4), from:(5,2) to:(5,4), from:(3,3) to:(3,5)]
+  XOX  
+  OOO  
+XOXOOXX
+OOXXXXX
+OXOXOOX
+  OOX  
+  XXX  
+solution progress: 4.950921078689056E-6 progressStep: 5.184210553601046E-9 stepCounter=442339155: 
+turn: 14; last Move: from:(5,4) to:(3,4) possible Moves: [from:(6,2) to:(4,2), from:(3,3) to:(1,3), from:(2,2) to:(2,4), from:(4,6) to:(4,4), from:(5,2) to:(5,4), from:(3,3) to:(3,5)]
+  XOX  
+  OOO  
+XOXOOXX
+OOXXXXX
+OXOXOOX
+  OOX  
+  XXX  
+solution progress: 4.950921078689056E-6 progressStep: 1.0368421107201809E-9 stepCounter=442339155: 
+turn: 15; last Move: from:(3,3) to:(1,3) possible Moves: [from:(1,4) to:(1,2), from:(6,2) to:(4,2), from:(5,3) to:(3,3), from:(4,6) to:(4,4), from:(5,2) to:(5,4)]
+  XOX  
+  OOO  
+XOXOOXX
+OXOOXXX
+OXOXOOX
+  OOX  
+  XXX  
+solution progress: 4.951957920799776E-6 progressStep: 1.0368421107201809E-9 stepCounter=442346705: 
+turn: 15; last Move: from:(3,3) to:(1,3) possible Moves: [from:(1,4) to:(1,2), from:(6,2) to:(4,2), from:(5,3) to:(3,3), from:(4,6) to:(4,4), from:(5,2) to:(5,4)]
+  XOX  
+  OOO  
+XOXOOXX
+OXOOXXX
+OXOXOOX
+  OOX  
+  XXX  
+solution progress: 4.952994762910496E-6 progressStep: 1.0368421107201809E-9 stepCounter=442368194: 
+turn: 15; last Move: from:(3,3) to:(1,3) possible Moves: [from:(1,4) to:(1,2), from:(6,2) to:(4,2), from:(5,3) to:(3,3), from:(4,6) to:(4,4), from:(5,2) to:(5,4)]
+  XOX  
+  OOO  
+XOXOOXX
+OXOOXXX
+OXOXOOX
+  OOX  
+  XXX  
+solution progress: 4.954031605021216E-6 progressStep: 1.0368421107201809E-9 stepCounter=442371730: 
+turn: 15; last Move: from:(3,3) to:(1,3) possible Moves: [from:(1,4) to:(1,2), from:(6,2) to:(4,2), from:(5,3) to:(3,3), from:(4,6) to:(4,4), from:(5,2) to:(5,4)]
+  XOX  
+  OOO  
+XOXOOXX
+OXOOXXX
+OXOXOOX
+  OOX  
+  XXX  
+solution progress: 4.955068447131936E-6 progressStep: 1.0368421107201809E-9 stepCounter=442407116: 
+turn: 15; last Move: from:(3,3) to:(1,3) possible Moves: [from:(1,4) to:(1,2), from:(6,2) to:(4,2), from:(5,3) to:(3,3), from:(4,6) to:(4,4), from:(5,2) to:(5,4)]
+  XOX  
+  OOO  
+XOXOOXX
+OXOOXXX
+OXOXOOX
+  OOX  
+  XXX  
+solution progress: 4.956105289242657E-6 progressStep: 5.184210553601046E-9 stepCounter=442408623: 
+turn: 14; last Move: from:(5,4) to:(3,4) possible Moves: [from:(6,2) to:(4,2), from:(3,3) to:(1,3), from:(2,2) to:(2,4), from:(4,6) to:(4,4), from:(5,2) to:(5,4), from:(3,3) to:(3,5)]
+  XOX  
+  OOO  
+XOXOOXX
+OOXXXXX
+OXOXOOX
+  OOX  
+  XXX  
+solution progress: 4.956105289242657E-6 progressStep: 1.0368421107201809E-9 stepCounter=442408623: 
+turn: 15; last Move: from:(2,2) to:(2,4) possible Moves: [from:(6,2) to:(4,2), from:(4,3) to:(2,3), from:(4,6) to:(4,4), from:(5,2) to:(5,4), from:(3,3) to:(3,5)]
+  XOX  
+  OOO  
+XOOOOXX
+OOOXXXX
+OXXXOOX
+  OOX  
+  XXX  
+solution progress: 4.957142131353377E-6 progressStep: 1.0368421107201809E-9 stepCounter=442573106: 
+turn: 15; last Move: from:(2,2) to:(2,4) possible Moves: [from:(6,2) to:(4,2), from:(4,3) to:(2,3), from:(4,6) to:(4,4), from:(5,2) to:(5,4), from:(3,3) to:(3,5)]
+  XOX  
+  OOO  
+XOOOOXX
+OOOXXXX
+OXXXOOX
+  OOX  
+  XXX  
+solution progress: 4.958178973464097E-6 progressStep: 1.0368421107201809E-9 stepCounter=442604850: 
+turn: 15; last Move: from:(2,2) to:(2,4) possible Moves: [from:(6,2) to:(4,2), from:(4,3) to:(2,3), from:(4,6) to:(4,4), from:(5,2) to:(5,4), from:(3,3) to:(3,5)]
+  XOX  
+  OOO  
+XOOOOXX
+OOOXXXX
+OXXXOOX
+  OOX  
+  XXX  
+solution progress: 4.959215815574817E-6 progressStep: 1.0368421107201809E-9 stepCounter=442891964: 
+turn: 15; last Move: from:(2,2) to:(2,4) possible Moves: [from:(6,2) to:(4,2), from:(4,3) to:(2,3), from:(4,6) to:(4,4), from:(5,2) to:(5,4), from:(3,3) to:(3,5)]
+  XOX  
+  OOO  
+XOOOOXX
+OOOXXXX
+OXXXOOX
+  OOX  
+  XXX  
+solution progress: 4.960252657685537E-6 progressStep: 1.0368421107201809E-9 stepCounter=442921268: 
+turn: 15; last Move: from:(2,2) to:(2,4) possible Moves: [from:(6,2) to:(4,2), from:(4,3) to:(2,3), from:(4,6) to:(4,4), from:(5,2) to:(5,4), from:(3,3) to:(3,5)]
+  XOX  
+  OOO  
+XOOOOXX
+OOOXXXX
+OXXXOOX
+  OOX  
+  XXX  
+solution progress: 4.961289499796258E-6 progressStep: 5.184210553601046E-9 stepCounter=443039954: 
+turn: 14; last Move: from:(5,4) to:(3,4) possible Moves: [from:(6,2) to:(4,2), from:(3,3) to:(1,3), from:(2,2) to:(2,4), from:(4,6) to:(4,4), from:(5,2) to:(5,4), from:(3,3) to:(3,5)]
+  XOX  
+  OOO  
+XOXOOXX
+OOXXXXX
+OXOXOOX
+  OOX  
+  XXX  
+solution progress: 4.966473710349859E-6 progressStep: 5.184210553601046E-9 stepCounter=444549710: 
+turn: 14; last Move: from:(5,4) to:(3,4) possible Moves: [from:(6,2) to:(4,2), from:(3,3) to:(1,3), from:(2,2) to:(2,4), from:(4,6) to:(4,4), from:(5,2) to:(5,4), from:(3,3) to:(3,5)]
+  XOX  
+  OOO  
+XOXOOXX
+OOXXXXX
+OXOXOOX
+  OOX  
+  XXX  
+solution progress: 4.97165792090346E-6 progressStep: 5.184210553601046E-9 stepCounter=444704666: 
+turn: 14; last Move: from:(5,4) to:(3,4) possible Moves: [from:(6,2) to:(4,2), from:(3,3) to:(1,3), from:(2,2) to:(2,4), from:(4,6) to:(4,4), from:(5,2) to:(5,4), from:(3,3) to:(3,5)]
+  XOX  
+  OOO  
+XOXOOXX
+OOXXXXX
+OXOXOOX
+  OOX  
+  XXX  
+solution progress: 4.976842131457063E-6 progressStep: 1.555263166080332E-7 stepCounter=445176626: 
+turn: 12; last Move: from:(3,5) to:(3,3) possible Moves: [from:(6,2) to:(4,2), from:(4,4) to:(4,2), from:(4,3) to:(2,3), from:(2,5) to:(2,3), from:(2,4) to:(0,4), from:(1,4) to:(3,4), from:(5,4) to:(3,4)]
+  XOX  
+  OOO  
+XOXOOXX
+OOOXXXX
+OXXOXXX
+  XOX  
+  XXX  
+solution progress: 4.976842131457063E-6 progressStep: 3.110526332160661E-8 stepCounter=445176626: 
+turn: 13; last Move: from:(2,4) to:(0,4) possible Moves: [from:(6,2) to:(4,2), from:(4,4) to:(4,2), from:(4,3) to:(2,3), from:(2,6) to:(2,4), from:(5,4) to:(3,4)]
+  XOX  
+  OOO  
+XOXOOXX
+OOOXXXX
+XOOOXXX
+  XOX  
+  XXX  
+solution progress: 4.976842131457063E-6 progressStep: 5.184210553601046E-9 stepCounter=445176626: 
+turn: 14; last Move: from:(6,2) to:(4,2) possible Moves: [from:(4,3) to:(4,1), from:(5,4) to:(5,2), from:(6,4) to:(6,2), from:(4,3) to:(2,3), from:(2,6) to:(2,4), from:(5,4) to:(3,4)]
+  XOX  
+  OOO  
+XOXOXOO
+OOOXXXX
+XOOOXXX
+  XOX  
+  XXX  
+solution progress: 4.982026342010664E-6 progressStep: 5.184210553601046E-9 stepCounter=445272860: 
+turn: 14; last Move: from:(6,2) to:(4,2) possible Moves: [from:(4,3) to:(4,1), from:(5,4) to:(5,2), from:(6,4) to:(6,2), from:(4,3) to:(2,3), from:(2,6) to:(2,4), from:(5,4) to:(3,4)]
+  XOX  
+  OOO  
+XOXOXOO
+OOOXXXX
+XOOOXXX
+  XOX  
+  XXX  
+solution progress: 4.987210552564265E-6 progressStep: 5.184210553601046E-9 stepCounter=445294774: 
+turn: 14; last Move: from:(6,2) to:(4,2) possible Moves: [from:(4,3) to:(4,1), from:(5,4) to:(5,2), from:(6,4) to:(6,2), from:(4,3) to:(2,3), from:(2,6) to:(2,4), from:(5,4) to:(3,4)]
+  XOX  
+  OOO  
+XOXOXOO
+OOOXXXX
+XOOOXXX
+  XOX  
+  XXX  
+solution progress: 4.992394763117866E-6 progressStep: 5.184210553601046E-9 stepCounter=445318720: 
+turn: 14; last Move: from:(6,2) to:(4,2) possible Moves: [from:(4,3) to:(4,1), from:(5,4) to:(5,2), from:(6,4) to:(6,2), from:(4,3) to:(2,3), from:(2,6) to:(2,4), from:(5,4) to:(3,4)]
+  XOX  
+  OOO  
+XOXOXOO
+OOOXXXX
+XOOOXXX
+  XOX  
+  XXX  
+solution progress: 4.997578973671467E-6 progressStep: 5.184210553601046E-9 stepCounter=445359065: 
+turn: 14; last Move: from:(6,2) to:(4,2) possible Moves: [from:(4,3) to:(4,1), from:(5,4) to:(5,2), from:(6,4) to:(6,2), from:(4,3) to:(2,3), from:(2,6) to:(2,4), from:(5,4) to:(3,4)]
+  XOX  
+  OOO  
+XOXOXOO
+OOOXXXX
+XOOOXXX
+  XOX  
+  XXX  
+solution progress: 5.002763184225068E-6 progressStep: 5.184210553601046E-9 stepCounter=445407440: 
+turn: 14; last Move: from:(6,2) to:(4,2) possible Moves: [from:(4,3) to:(4,1), from:(5,4) to:(5,2), from:(6,4) to:(6,2), from:(4,3) to:(2,3), from:(2,6) to:(2,4), from:(5,4) to:(3,4)]
+  XOX  
+  OOO  
+XOXOXOO
+OOOXXXX
+XOOOXXX
+  XOX  
+  XXX  
+solution progress: 5.0079473947786695E-6 progressStep: 3.110526332160661E-8 stepCounter=445532158: 
+turn: 13; last Move: from:(2,4) to:(0,4) possible Moves: [from:(6,2) to:(4,2), from:(4,4) to:(4,2), from:(4,3) to:(2,3), from:(2,6) to:(2,4), from:(5,4) to:(3,4)]
+  XOX  
+  OOO  
+XOXOOXX
+OOOXXXX
+XOOOXXX
+  XOX  
+  XXX  
+solution progress: 5.0079473947786695E-6 progressStep: 6.221052664321255E-9 stepCounter=445532158: 
+turn: 14; last Move: from:(4,4) to:(4,2) possible Moves: [from:(5,2) to:(3,2), from:(6,3) to:(4,3), from:(2,6) to:(2,4), from:(6,4) to:(4,4), from:(4,6) to:(4,4)]
+  XOX  
+  OOO  
+XOXOXXX
+OOOXOXX
+XOOOOXX
+  XOX  
+  XXX  
+solution progress: 5.01416844744299E-6 progressStep: 6.221052664321255E-9 stepCounter=445557022: 
+turn: 14; last Move: from:(4,4) to:(4,2) possible Moves: [from:(5,2) to:(3,2), from:(6,3) to:(4,3), from:(2,6) to:(2,4), from:(6,4) to:(4,4), from:(4,6) to:(4,4)]
+  XOX  
+  OOO  
+XOXOXXX
+OOOXOXX
+XOOOOXX
+  XOX  
+  XXX  
+solution progress: 5.01416844744299E-6 progressStep: 1.0368421107201527E-9 stepCounter=445557022: 
+turn: 15; last Move: from:(6,3) to:(4,3) possible Moves: [from:(5,2) to:(3,2), from:(3,3) to:(5,3), from:(2,6) to:(2,4), from:(4,2) to:(4,4), from:(6,4) to:(4,4), from:(4,6) to:(4,4)]
+  XOX  
+  OOO  
+XOXOXXX
+OOOXXOO
+XOOOOXX
+  XOX  
+  XXX  
+solution progress: 5.01520528955371E-6 progressStep: 1.0368421107201527E-9 stepCounter=445564243: 
+turn: 15; last Move: from:(6,3) to:(4,3) possible Moves: [from:(5,2) to:(3,2), from:(3,3) to:(5,3), from:(2,6) to:(2,4), from:(4,2) to:(4,4), from:(6,4) to:(4,4), from:(4,6) to:(4,4)]
+  XOX  
+  OOO  
+XOXOXXX
+OOOXXOO
+XOOOOXX
+  XOX  
+  XXX  
+solution progress: 5.01624213166443E-6 progressStep: 1.0368421107201527E-9 stepCounter=445566351: 
+turn: 15; last Move: from:(6,3) to:(4,3) possible Moves: [from:(5,2) to:(3,2), from:(3,3) to:(5,3), from:(2,6) to:(2,4), from:(4,2) to:(4,4), from:(6,4) to:(4,4), from:(4,6) to:(4,4)]
+  XOX  
+  OOO  
+XOXOXXX
+OOOXXOO
+XOOOOXX
+  XOX  
+  XXX  
+solution progress: 5.01727897377515E-6 progressStep: 1.0368421107201527E-9 stepCounter=445570139: 
+turn: 15; last Move: from:(6,3) to:(4,3) possible Moves: [from:(5,2) to:(3,2), from:(3,3) to:(5,3), from:(2,6) to:(2,4), from:(4,2) to:(4,4), from:(6,4) to:(4,4), from:(4,6) to:(4,4)]
+  XOX  
+  OOO  
+XOXOXXX
+OOOXXOO
+XOOOOXX
+  XOX  
+  XXX  
+solution progress: 5.0183158158858704E-6 progressStep: 1.0368421107201527E-9 stepCounter=445572417: 
+turn: 15; last Move: from:(6,3) to:(4,3) possible Moves: [from:(5,2) to:(3,2), from:(3,3) to:(5,3), from:(2,6) to:(2,4), from:(4,2) to:(4,4), from:(6,4) to:(4,4), from:(4,6) to:(4,4)]
+  XOX  
+  OOO  
+XOXOXXX
+OOOXXOO
+XOOOOXX
+  XOX  
+  XXX  
+solution progress: 5.0193526579965904E-6 progressStep: 1.0368421107201527E-9 stepCounter=445574544: 
+turn: 15; last Move: from:(6,3) to:(4,3) possible Moves: [from:(5,2) to:(3,2), from:(3,3) to:(5,3), from:(2,6) to:(2,4), from:(4,2) to:(4,4), from:(6,4) to:(4,4), from:(4,6) to:(4,4)]
+  XOX  
+  OOO  
+XOXOXXX
+OOOXXOO
+XOOOOXX
+  XOX  
+  XXX  
+solution progress: 5.020389500107311E-6 progressStep: 6.221052664321255E-9 stepCounter=445582037: 
+turn: 14; last Move: from:(4,4) to:(4,2) possible Moves: [from:(5,2) to:(3,2), from:(6,3) to:(4,3), from:(2,6) to:(2,4), from:(6,4) to:(4,4), from:(4,6) to:(4,4)]
+  XOX  
+  OOO  
+XOXOXXX
+OOOXOXX
+XOOOOXX
+  XOX  
+  XXX  
+solution progress: 5.020389500107311E-6 progressStep: 1.2442105328641833E-9 stepCounter=445582037: 
+turn: 15; last Move: from:(2,6) to:(2,4) possible Moves: [from:(5,2) to:(3,2), from:(6,3) to:(4,3), from:(6,4) to:(4,4), from:(4,6) to:(4,4), from:(4,6) to:(2,6)]
+  XOX  
+  OOO  
+XOXOXXX
+OOOXOXX
+XOXOOXX
+  OOX  
+  OXX  
+solution progress: 5.021633710640176E-6 progressStep: 1.2442105328641833E-9 stepCounter=445585676: 
+turn: 15; last Move: from:(2,6) to:(2,4) possible Moves: [from:(5,2) to:(3,2), from:(6,3) to:(4,3), from:(6,4) to:(4,4), from:(4,6) to:(4,4), from:(4,6) to:(2,6)]
+  XOX  
+  OOO  
+XOXOXXX
+OOOXOXX
+XOXOOXX
+  OOX  
+  OXX  
+solution progress: 5.02287792117304E-6 progressStep: 1.2442105328641833E-9 stepCounter=445589464: 
+turn: 15; last Move: from:(2,6) to:(2,4) possible Moves: [from:(5,2) to:(3,2), from:(6,3) to:(4,3), from:(6,4) to:(4,4), from:(4,6) to:(4,4), from:(4,6) to:(2,6)]
+  XOX  
+  OOO  
+XOXOXXX
+OOOXOXX
+XOXOOXX
+  OOX  
+  OXX  
+solution progress: 5.024122131705904E-6 progressStep: 1.2442105328641833E-9 stepCounter=445593094: 
+turn: 15; last Move: from:(2,6) to:(2,4) possible Moves: [from:(5,2) to:(3,2), from:(6,3) to:(4,3), from:(6,4) to:(4,4), from:(4,6) to:(4,4), from:(4,6) to:(2,6)]
+  XOX  
+  OOO  
+XOXOXXX
+OOOXOXX
+XOXOOXX
+  OOX  
+  OXX  
+solution progress: 5.025366342238769E-6 progressStep: 1.2442105328641833E-9 stepCounter=445595251: 
+turn: 15; last Move: from:(2,6) to:(2,4) possible Moves: [from:(5,2) to:(3,2), from:(6,3) to:(4,3), from:(6,4) to:(4,4), from:(4,6) to:(4,4), from:(4,6) to:(2,6)]
+  XOX  
+  OOO  
+XOXOXXX
+OOOXOXX
+XOXOOXX
+  OOX  
+  OXX  
+solution progress: 5.026610552771632E-6 progressStep: 6.221052664321255E-9 stepCounter=445596366: 
+turn: 14; last Move: from:(4,4) to:(4,2) possible Moves: [from:(5,2) to:(3,2), from:(6,3) to:(4,3), from:(2,6) to:(2,4), from:(6,4) to:(4,4), from:(4,6) to:(4,4)]
+  XOX  
+  OOO  
+XOXOXXX
+OOOXOXX
+XOOOOXX
+  XOX  
+  XXX  
+solution progress: 5.026610552771632E-6 progressStep: 1.0368421107201527E-9 stepCounter=445596366: 
+turn: 15; last Move: from:(6,4) to:(4,4) possible Moves: [from:(5,2) to:(3,2), from:(6,3) to:(4,3), from:(4,5) to:(4,3), from:(2,6) to:(2,4), from:(5,2) to:(5,4), from:(6,2) to:(6,4)]
+  XOX  
+  OOO  
+XOXOXXX
+OOOXOXX
+XOOOXOO
+  XOX  
+  XXX  
+solution progress: 5.027647394882352E-6 progressStep: 1.0368421107201527E-9 stepCounter=445599377: 
+turn: 15; last Move: from:(6,4) to:(4,4) possible Moves: [from:(5,2) to:(3,2), from:(6,3) to:(4,3), from:(4,5) to:(4,3), from:(2,6) to:(2,4), from:(5,2) to:(5,4), from:(6,2) to:(6,4)]
+  XOX  
+  OOO  
+XOXOXXX
+OOOXOXX
+XOOOXOO
+  XOX  
+  XXX  
+solution progress: 5.028684236993072E-6 progressStep: 1.0368421107201527E-9 stepCounter=445601504: 
+turn: 15; last Move: from:(6,4) to:(4,4) possible Moves: [from:(5,2) to:(3,2), from:(6,3) to:(4,3), from:(4,5) to:(4,3), from:(2,6) to:(2,4), from:(5,2) to:(5,4), from:(6,2) to:(6,4)]
+  XOX  
+  OOO  
+XOXOXXX
+OOOXOXX
+XOOOXOO
+  XOX  
+  XXX  
+solution progress: 5.029721079103792E-6 progressStep: 1.0368421107201527E-9 stepCounter=445604825: 
+turn: 15; last Move: from:(6,4) to:(4,4) possible Moves: [from:(5,2) to:(3,2), from:(6,3) to:(4,3), from:(4,5) to:(4,3), from:(2,6) to:(2,4), from:(5,2) to:(5,4), from:(6,2) to:(6,4)]
+  XOX  
+  OOO  
+XOXOXXX
+OOOXOXX
+XOOOXOO
+  XOX  
+  XXX  
+solution progress: 5.030757921214512E-6 progressStep: 1.0368421107201527E-9 stepCounter=445608455: 
+turn: 15; last Move: from:(6,4) to:(4,4) possible Moves: [from:(5,2) to:(3,2), from:(6,3) to:(4,3), from:(4,5) to:(4,3), from:(2,6) to:(2,4), from:(5,2) to:(5,4), from:(6,2) to:(6,4)]
+  XOX  
+  OOO  
+XOXOXXX
+OOOXOXX
+XOOOXOO
+  XOX  
+  XXX  
+solution progress: 5.031794763325232E-6 progressStep: 1.0368421107201527E-9 stepCounter=445609595: 
+turn: 15; last Move: from:(6,4) to:(4,4) possible Moves: [from:(5,2) to:(3,2), from:(6,3) to:(4,3), from:(4,5) to:(4,3), from:(2,6) to:(2,4), from:(5,2) to:(5,4), from:(6,2) to:(6,4)]
+  XOX  
+  OOO  
+XOXOXXX
+OOOXOXX
+XOOOXOO
+  XOX  
+  XXX  
+solution progress: 5.032831605435953E-6 progressStep: 6.221052664321255E-9 stepCounter=445610561: 
+turn: 14; last Move: from:(4,4) to:(4,2) possible Moves: [from:(5,2) to:(3,2), from:(6,3) to:(4,3), from:(2,6) to:(2,4), from:(6,4) to:(4,4), from:(4,6) to:(4,4)]
+  XOX  
+  OOO  
+XOXOXXX
+OOOXOXX
+XOOOOXX
+  XOX  
+  XXX  
+solution progress: 5.032831605435953E-6 progressStep: 1.2442105328641833E-9 stepCounter=445610561: 
+turn: 15; last Move: from:(4,6) to:(4,4) possible Moves: [from:(5,2) to:(3,2), from:(6,3) to:(4,3), from:(2,6) to:(2,4), from:(5,4) to:(3,4), from:(2,6) to:(4,6)]
+  XOX  
+  OOO  
+XOXOXXX
+OOOXOXX
+XOOOXXX
+  XOO  
+  XXO  
+solution progress: 5.0340758159688175E-6 progressStep: 1.2442105328641833E-9 stepCounter=445618181: 
+turn: 15; last Move: from:(4,6) to:(4,4) possible Moves: [from:(5,2) to:(3,2), from:(6,3) to:(4,3), from:(2,6) to:(2,4), from:(5,4) to:(3,4), from:(2,6) to:(4,6)]
+  XOX  
+  OOO  
+XOXOXXX
+OOOXOXX
+XOOOXXX
+  XOO  
+  XXO  
+solution progress: 5.035320026501682E-6 progressStep: 1.2442105328641833E-9 stepCounter=445624430: 
+turn: 15; last Move: from:(4,6) to:(4,4) possible Moves: [from:(5,2) to:(3,2), from:(6,3) to:(4,3), from:(2,6) to:(2,4), from:(5,4) to:(3,4), from:(2,6) to:(4,6)]
+  XOX  
+  OOO  
+XOXOXXX
+OOOXOXX
+XOOOXXX
+  XOO  
+  XXO  
+solution progress: 5.036564237034546E-6 progressStep: 1.2442105328641833E-9 stepCounter=445626587: 
+turn: 15; last Move: from:(4,6) to:(4,4) possible Moves: [from:(5,2) to:(3,2), from:(6,3) to:(4,3), from:(2,6) to:(2,4), from:(5,4) to:(3,4), from:(2,6) to:(4,6)]
+  XOX  
+  OOO  
+XOXOXXX
+OOOXOXX
+XOOOXXX
+  XOO  
+  XXO  
+solution progress: 5.0378084475674105E-6 progressStep: 1.2442105328641833E-9 stepCounter=445638170: 
+turn: 15; last Move: from:(4,6) to:(4,4) possible Moves: [from:(5,2) to:(3,2), from:(6,3) to:(4,3), from:(2,6) to:(2,4), from:(5,4) to:(3,4), from:(2,6) to:(4,6)]
+  XOX  
+  OOO  
+XOXOXXX
+OOOXOXX
+XOOOXXX
+  XOO  
+  XXO  
+solution progress: 5.039052658100276E-6 progressStep: 3.110526332160661E-8 stepCounter=445639854: 
+turn: 13; last Move: from:(2,4) to:(0,4) possible Moves: [from:(6,2) to:(4,2), from:(4,4) to:(4,2), from:(4,3) to:(2,3), from:(2,6) to:(2,4), from:(5,4) to:(3,4)]
+  XOX  
+  OOO  
+XOXOOXX
+OOOXXXX
+XOOOXXX
+  XOX  
+  XXX  
+solution progress: 5.039052658100276E-6 progressStep: 5.184210553601046E-9 stepCounter=445639854: 
+turn: 14; last Move: from:(4,3) to:(2,3) possible Moves: [from:(6,2) to:(4,2), from:(6,3) to:(4,3), from:(4,5) to:(4,3), from:(2,2) to:(2,4), from:(2,6) to:(2,4), from:(5,4) to:(3,4)]
+  XOX  
+  OOO  
+XOXOOXX
+OOXOOXX
+XOOOXXX
+  XOX  
+  XXX  
+solution progress: 5.044236868653877E-6 progressStep: 5.184210553601046E-9 stepCounter=445680199: 
+turn: 14; last Move: from:(4,3) to:(2,3) possible Moves: [from:(6,2) to:(4,2), from:(6,3) to:(4,3), from:(4,5) to:(4,3), from:(2,2) to:(2,4), from:(2,6) to:(2,4), from:(5,4) to:(3,4)]
+  XOX  
+  OOO  
+XOXOOXX
+OOXOOXX
+XOOOXXX
+  XOX  
+  XXX  
+solution progress: 5.044236868653877E-6 progressStep: 1.0368421107201809E-9 stepCounter=445680199: 
+turn: 15; last Move: from:(6,3) to:(4,3) possible Moves: [from:(6,2) to:(4,2), from:(4,4) to:(4,2), from:(2,2) to:(2,4), from:(2,6) to:(2,4), from:(5,4) to:(3,4)]
+  XOX  
+  OOO  
+XOXOOXX
+OOXOXOO
+XOOOXXX
+  XOX  
+  XXX  
+solution progress: 5.045273710764597E-6 progressStep: 1.0368421107201809E-9 stepCounter=445708242: 
+turn: 15; last Move: from:(6,3) to:(4,3) possible Moves: [from:(6,2) to:(4,2), from:(4,4) to:(4,2), from:(2,2) to:(2,4), from:(2,6) to:(2,4), from:(5,4) to:(3,4)]
+  XOX  
+  OOO  
+XOXOOXX
+OOXOXOO
+XOOOXXX
+  XOX  
+  XXX  
+solution progress: 5.046310552875317E-6 progressStep: 1.0368421107201809E-9 stepCounter=445716058: 
+turn: 15; last Move: from:(6,3) to:(4,3) possible Moves: [from:(6,2) to:(4,2), from:(4,4) to:(4,2), from:(2,2) to:(2,4), from:(2,6) to:(2,4), from:(5,4) to:(3,4)]
+  XOX  
+  OOO  
+XOXOOXX
+OOXOXOO
+XOOOXXX
+  XOX  
+  XXX  
+solution progress: 5.047347394986037E-6 progressStep: 1.0368421107201809E-9 stepCounter=445725902: 
+turn: 15; last Move: from:(6,3) to:(4,3) possible Moves: [from:(6,2) to:(4,2), from:(4,4) to:(4,2), from:(2,2) to:(2,4), from:(2,6) to:(2,4), from:(5,4) to:(3,4)]
+  XOX  
+  OOO  
+XOXOOXX
+OOXOXOO
+XOOOXXX
+  XOX  
+  XXX  
+solution progress: 5.048384237096757E-6 progressStep: 1.0368421107201809E-9 stepCounter=445739536: 
+turn: 15; last Move: from:(6,3) to:(4,3) possible Moves: [from:(6,2) to:(4,2), from:(4,4) to:(4,2), from:(2,2) to:(2,4), from:(2,6) to:(2,4), from:(5,4) to:(3,4)]
+  XOX  
+  OOO  
+XOXOOXX
+OOXOXOO
+XOOOXXX
+  XOX  
+  XXX  
+solution progress: 5.0494210792074776E-6 progressStep: 5.184210553601046E-9 stepCounter=445777716: 
+turn: 14; last Move: from:(4,3) to:(2,3) possible Moves: [from:(6,2) to:(4,2), from:(6,3) to:(4,3), from:(4,5) to:(4,3), from:(2,2) to:(2,4), from:(2,6) to:(2,4), from:(5,4) to:(3,4)]
+  XOX  
+  OOO  
+XOXOOXX
+OOXOOXX
+XOOOXXX
+  XOX  
+  XXX  
+solution progress: 5.0494210792074776E-6 progressStep: 1.0368421107201809E-9 stepCounter=445777716: 
+turn: 15; last Move: from:(4,5) to:(4,3) possible Moves: [from:(6,2) to:(4,2), from:(5,3) to:(3,3), from:(2,2) to:(2,4), from:(2,6) to:(2,4), from:(6,4) to:(4,4)]
+  XOX  
+  OOO  
+XOXOOXX
+OOXOXXX
+XOOOOXX
+  XOO  
+  XXX  
+solution progress: 5.0504579213181976E-6 progressStep: 1.0368421107201809E-9 stepCounter=445805079: 
+turn: 15; last Move: from:(4,5) to:(4,3) possible Moves: [from:(6,2) to:(4,2), from:(5,3) to:(3,3), from:(2,2) to:(2,4), from:(2,6) to:(2,4), from:(6,4) to:(4,4)]
+  XOX  
+  OOO  
+XOXOOXX
+OOXOXXX
+XOOOOXX
+  XOO  
+  XXX  
+solution progress: 5.051494763428918E-6 progressStep: 1.0368421107201809E-9 stepCounter=445807165: 
+turn: 15; last Move: from:(4,5) to:(4,3) possible Moves: [from:(6,2) to:(4,2), from:(5,3) to:(3,3), from:(2,2) to:(2,4), from:(2,6) to:(2,4), from:(6,4) to:(4,4)]
+  XOX  
+  OOO  
+XOXOOXX
+OOXOXXX
+XOOOOXX
+  XOO  
+  XXX  
+solution progress: 5.052531605539638E-6 progressStep: 1.0368421107201809E-9 stepCounter=445810601: 
+turn: 15; last Move: from:(4,5) to:(4,3) possible Moves: [from:(6,2) to:(4,2), from:(5,3) to:(3,3), from:(2,2) to:(2,4), from:(2,6) to:(2,4), from:(6,4) to:(4,4)]
+  XOX  
+  OOO  
+XOXOOXX
+OOXOXXX
+XOOOOXX
+  XOO  
+  XXX  
+solution progress: 5.053568447650358E-6 progressStep: 1.0368421107201809E-9 stepCounter=445830446: 
+turn: 15; last Move: from:(4,5) to:(4,3) possible Moves: [from:(6,2) to:(4,2), from:(5,3) to:(3,3), from:(2,2) to:(2,4), from:(2,6) to:(2,4), from:(6,4) to:(4,4)]
+  XOX  
+  OOO  
+XOXOOXX
+OOXOXXX
+XOOOOXX
+  XOO  
+  XXX  
+solution progress: 5.0546052897610785E-6 progressStep: 5.184210553601046E-9 stepCounter=445848175: 
+turn: 14; last Move: from:(4,3) to:(2,3) possible Moves: [from:(6,2) to:(4,2), from:(6,3) to:(4,3), from:(4,5) to:(4,3), from:(2,2) to:(2,4), from:(2,6) to:(2,4), from:(5,4) to:(3,4)]
+  XOX  
+  OOO  
+XOXOOXX
+OOXOOXX
+XOOOXXX
+  XOX  
+  XXX  
+solution progress: 5.0546052897610785E-6 progressStep: 1.0368421107201809E-9 stepCounter=445848175: 
+turn: 15; last Move: from:(2,2) to:(2,4) possible Moves: [from:(6,2) to:(4,2), from:(2,5) to:(2,3), from:(6,3) to:(4,3), from:(4,5) to:(4,3), from:(5,4) to:(3,4)]
+  XOX  
+  OOO  
+XOOOOXX
+OOOOOXX
+XOXOXXX
+  XOX  
+  XXX  
+solution progress: 5.0556421318717985E-6 progressStep: 1.0368421107201809E-9 stepCounter=445851291: 
+turn: 15; last Move: from:(2,2) to:(2,4) possible Moves: [from:(6,2) to:(4,2), from:(2,5) to:(2,3), from:(6,3) to:(4,3), from:(4,5) to:(4,3), from:(5,4) to:(3,4)]
+  XOX  
+  OOO  
+XOOOOXX
+OOOOOXX
+XOXOXXX
+  XOX  
+  XXX  
+solution progress: 5.0566789739825185E-6 progressStep: 1.0368421107201809E-9 stepCounter=445854177: 
+turn: 15; last Move: from:(2,2) to:(2,4) possible Moves: [from:(6,2) to:(4,2), from:(2,5) to:(2,3), from:(6,3) to:(4,3), from:(4,5) to:(4,3), from:(5,4) to:(3,4)]
+  XOX  
+  OOO  
+XOOOOXX
+OOOOOXX
+XOXOXXX
+  XOX  
+  XXX  
+solution progress: 5.0577158160932385E-6 progressStep: 1.0368421107201809E-9 stepCounter=445864021: 
+turn: 15; last Move: from:(2,2) to:(2,4) possible Moves: [from:(6,2) to:(4,2), from:(2,5) to:(2,3), from:(6,3) to:(4,3), from:(4,5) to:(4,3), from:(5,4) to:(3,4)]
+  XOX  
+  OOO  
+XOOOOXX
+OOOOOXX
+XOXOXXX
+  XOX  
+  XXX  
+solution progress: 5.0587526582039585E-6 progressStep: 1.0368421107201809E-9 stepCounter=445867457: 
+turn: 15; last Move: from:(2,2) to:(2,4) possible Moves: [from:(6,2) to:(4,2), from:(2,5) to:(2,3), from:(6,3) to:(4,3), from:(4,5) to:(4,3), from:(5,4) to:(3,4)]
+  XOX  
+  OOO  
+XOOOOXX
+OOOOOXX
+XOXOXXX
+  XOX  
+  XXX  
+solution progress: 5.059789500314679E-6 progressStep: 5.184210553601046E-9 stepCounter=445887954: 
+turn: 14; last Move: from:(4,3) to:(2,3) possible Moves: [from:(6,2) to:(4,2), from:(6,3) to:(4,3), from:(4,5) to:(4,3), from:(2,2) to:(2,4), from:(2,6) to:(2,4), from:(5,4) to:(3,4)]
+  XOX  
+  OOO  
+XOXOOXX
+OOXOOXX
+XOOOXXX
+  XOX  
+  XXX  
+solution progress: 5.06497371086828E-6 progressStep: 5.184210553601046E-9 stepCounter=445964955: 
+turn: 14; last Move: from:(4,3) to:(2,3) possible Moves: [from:(6,2) to:(4,2), from:(6,3) to:(4,3), from:(4,5) to:(4,3), from:(2,2) to:(2,4), from:(2,6) to:(2,4), from:(5,4) to:(3,4)]
+  XOX  
+  OOO  
+XOXOOXX
+OOXOOXX
+XOOOXXX
+  XOX  
+  XXX  
+solution progress: 5.070157921421882E-6 progressStep: 3.110526332160661E-8 stepCounter=446122142: 
+turn: 13; last Move: from:(2,4) to:(0,4) possible Moves: [from:(6,2) to:(4,2), from:(4,4) to:(4,2), from:(4,3) to:(2,3), from:(2,6) to:(2,4), from:(5,4) to:(3,4)]
+  XOX  
+  OOO  
+XOXOOXX
+OOOXXXX
+XOOOXXX
+  XOX  
+  XXX  
+solution progress: 5.070157921421882E-6 progressStep: 6.221052664321255E-9 stepCounter=446122142: 
+turn: 14; last Move: from:(2,6) to:(2,4) possible Moves: [from:(6,2) to:(4,2), from:(4,4) to:(4,2), from:(4,3) to:(2,3), from:(5,4) to:(3,4), from:(4,6) to:(2,6)]
+  XOX  
+  OOO  
+XOXOOXX
+OOOXXXX
+XOXOXXX
+  OOX  
+  OXX  
+solution progress: 5.070157921421882E-6 progressStep: 1.0368421107201527E-9 stepCounter=446122142: 
+turn: 15; last Move: from:(6,2) to:(4,2) possible Moves: [from:(4,3) to:(4,1), from:(5,4) to:(5,2), from:(6,4) to:(6,2), from:(4,3) to:(2,3), from:(5,4) to:(3,4), from:(4,6) to:(2,6)]
+  XOX  
+  OOO  
+XOXOXOO
+OOOXXXX
+XOXOXXX
+  OOX  
+  OXX  
+solution progress: 5.071194763532602E-6 progressStep: 1.0368421107201527E-9 stepCounter=446139282: 
+turn: 15; last Move: from:(6,2) to:(4,2) possible Moves: [from:(4,3) to:(4,1), from:(5,4) to:(5,2), from:(6,4) to:(6,2), from:(4,3) to:(2,3), from:(5,4) to:(3,4), from:(4,6) to:(2,6)]
+  XOX  
+  OOO  
+XOXOXOO
+OOOXXXX
+XOXOXXX
+  OOX  
+  OXX  
+solution progress: 5.072231605643322E-6 progressStep: 1.0368421107201527E-9 stepCounter=446144217: 
+turn: 15; last Move: from:(6,2) to:(4,2) possible Moves: [from:(4,3) to:(4,1), from:(5,4) to:(5,2), from:(6,4) to:(6,2), from:(4,3) to:(2,3), from:(5,4) to:(3,4), from:(4,6) to:(2,6)]
+  XOX  
+  OOO  
+XOXOXOO
+OOOXXXX
+XOXOXXX
+  OOX  
+  OXX  
+solution progress: 5.073268447754042E-6 progressStep: 1.0368421107201527E-9 stepCounter=446149019: 
+turn: 15; last Move: from:(6,2) to:(4,2) possible Moves: [from:(4,3) to:(4,1), from:(5,4) to:(5,2), from:(6,4) to:(6,2), from:(4,3) to:(2,3), from:(5,4) to:(3,4), from:(4,6) to:(2,6)]
+  XOX  
+  OOO  
+XOXOXOO
+OOOXXXX
+XOXOXXX
+  OOX  
+  OXX  
+solution progress: 5.074305289864762E-6 progressStep: 1.0368421107201527E-9 stepCounter=446151194: 
+turn: 15; last Move: from:(6,2) to:(4,2) possible Moves: [from:(4,3) to:(4,1), from:(5,4) to:(5,2), from:(6,4) to:(6,2), from:(4,3) to:(2,3), from:(5,4) to:(3,4), from:(4,6) to:(2,6)]
+  XOX  
+  OOO  
+XOXOXOO
+OOOXXXX
+XOXOXXX
+  OOX  
+  OXX  
+solution progress: 5.075342131975482E-6 progressStep: 1.0368421107201527E-9 stepCounter=446165514: 
+turn: 15; last Move: from:(6,2) to:(4,2) possible Moves: [from:(4,3) to:(4,1), from:(5,4) to:(5,2), from:(6,4) to:(6,2), from:(4,3) to:(2,3), from:(5,4) to:(3,4), from:(4,6) to:(2,6)]
+  XOX  
+  OOO  
+XOXOXOO
+OOOXXXX
+XOXOXXX
+  OOX  
+  OXX  
+solution progress: 5.076378974086203E-6 progressStep: 6.221052664321255E-9 stepCounter=446170517: 
+turn: 14; last Move: from:(2,6) to:(2,4) possible Moves: [from:(6,2) to:(4,2), from:(4,4) to:(4,2), from:(4,3) to:(2,3), from:(5,4) to:(3,4), from:(4,6) to:(2,6)]
+  XOX  
+  OOO  
+XOXOOXX
+OOOXXXX
+XOXOXXX
+  OOX  
+  OXX  
+solution progress: 5.076378974086203E-6 progressStep: 1.2442105328641833E-9 stepCounter=446170517: 
+turn: 15; last Move: from:(4,4) to:(4,2) possible Moves: [from:(5,2) to:(3,2), from:(6,3) to:(4,3), from:(6,4) to:(4,4), from:(4,6) to:(4,4), from:(4,6) to:(2,6)]
+  XOX  
+  OOO  
+XOXOXXX
+OOOXOXX
+XOXOOXX
+  OOX  
+  OXX  
+solution progress: 5.077623184619067E-6 progressStep: 1.2442105328641833E-9 stepCounter=446174156: 
+turn: 15; last Move: from:(4,4) to:(4,2) possible Moves: [from:(5,2) to:(3,2), from:(6,3) to:(4,3), from:(6,4) to:(4,4), from:(4,6) to:(4,4), from:(4,6) to:(2,6)]
+  XOX  
+  OOO  
+XOXOXXX
+OOOXOXX
+XOXOOXX
+  OOX  
+  OXX  
+solution progress: 5.078867395151932E-6 progressStep: 1.2442105328641833E-9 stepCounter=446177944: 
+turn: 15; last Move: from:(4,4) to:(4,2) possible Moves: [from:(5,2) to:(3,2), from:(6,3) to:(4,3), from:(6,4) to:(4,4), from:(4,6) to:(4,4), from:(4,6) to:(2,6)]
+  XOX  
+  OOO  
+XOXOXXX
+OOOXOXX
+XOXOOXX
+  OOX  
+  OXX  
+solution progress: 5.080111605684796E-6 progressStep: 1.2442105328641833E-9 stepCounter=446181574: 
+turn: 15; last Move: from:(4,4) to:(4,2) possible Moves: [from:(5,2) to:(3,2), from:(6,3) to:(4,3), from:(6,4) to:(4,4), from:(4,6) to:(4,4), from:(4,6) to:(2,6)]
+  XOX  
+  OOO  
+XOXOXXX
+OOOXOXX
+XOXOOXX
+  OOX  
+  OXX  
+solution progress: 5.08135581621766E-6 progressStep: 1.2442105328641833E-9 stepCounter=446183731: 
+turn: 15; last Move: from:(4,4) to:(4,2) possible Moves: [from:(5,2) to:(3,2), from:(6,3) to:(4,3), from:(6,4) to:(4,4), from:(4,6) to:(4,4), from:(4,6) to:(2,6)]
+  XOX  
+  OOO  
+XOXOXXX
+OOOXOXX
+XOXOOXX
+  OOX  
+  OXX  
+solution progress: 5.082600026750524E-6 progressStep: 6.221052664321255E-9 stepCounter=446184846: 
+turn: 14; last Move: from:(2,6) to:(2,4) possible Moves: [from:(6,2) to:(4,2), from:(4,4) to:(4,2), from:(4,3) to:(2,3), from:(5,4) to:(3,4), from:(4,6) to:(2,6)]
+  XOX  
+  OOO  
+XOXOOXX
+OOOXXXX
+XOXOXXX
+  OOX  
+  OXX  
+solution progress: 5.082600026750524E-6 progressStep: 1.2442105328641833E-9 stepCounter=446184846: 
+turn: 15; last Move: from:(4,3) to:(2,3) possible Moves: [from:(6,2) to:(4,2), from:(6,3) to:(4,3), from:(4,5) to:(4,3), from:(5,4) to:(3,4), from:(4,6) to:(2,6)]
+  XOX  
+  OOO  
+XOXOOXX
+OOXOOXX
+XOXOXXX
+  OOX  
+  OXX  
+solution progress: 5.083844237283388E-6 progressStep: 1.2442105328641833E-9 stepCounter=446187021: 
+turn: 15; last Move: from:(4,3) to:(2,3) possible Moves: [from:(6,2) to:(4,2), from:(6,3) to:(4,3), from:(4,5) to:(4,3), from:(5,4) to:(3,4), from:(4,6) to:(2,6)]
+  XOX  
+  OOO  
+XOXOOXX
+OOXOOXX
+XOXOXXX
+  OOX  
+  OXX  
+solution progress: 5.0850884478162526E-6 progressStep: 1.2442105328641833E-9 stepCounter=446190538: 
+turn: 15; last Move: from:(4,3) to:(2,3) possible Moves: [from:(6,2) to:(4,2), from:(6,3) to:(4,3), from:(4,5) to:(4,3), from:(5,4) to:(3,4), from:(4,6) to:(2,6)]
+  XOX  
+  OOO  
+XOXOOXX
+OOXOOXX
+XOXOXXX
+  OOX  
+  OXX  
+solution progress: 5.086332658349117E-6 progressStep: 1.2442105328641833E-9 stepCounter=446192920: 
+turn: 15; last Move: from:(4,3) to:(2,3) possible Moves: [from:(6,2) to:(4,2), from:(6,3) to:(4,3), from:(4,5) to:(4,3), from:(5,4) to:(3,4), from:(4,6) to:(2,6)]
+  XOX  
+  OOO  
+XOXOOXX
+OOXOOXX
+XOXOXXX
+  OOX  
+  OXX  
+solution progress: 5.087576868881981E-6 progressStep: 1.2442105328641833E-9 stepCounter=446199855: 
+turn: 15; last Move: from:(4,3) to:(2,3) possible Moves: [from:(6,2) to:(4,2), from:(6,3) to:(4,3), from:(4,5) to:(4,3), from:(5,4) to:(3,4), from:(4,6) to:(2,6)]
+  XOX  
+  OOO  
+XOXOOXX
+OOXOOXX
+XOXOXXX
+  OOX  
+  OXX  
+solution progress: 5.088821079414845E-6 progressStep: 6.221052664321255E-9 stepCounter=446201667: 
+turn: 14; last Move: from:(2,6) to:(2,4) possible Moves: [from:(6,2) to:(4,2), from:(4,4) to:(4,2), from:(4,3) to:(2,3), from:(5,4) to:(3,4), from:(4,6) to:(2,6)]
+  XOX  
+  OOO  
+XOXOOXX
+OOOXXXX
+XOXOXXX
+  OOX  
+  OXX  
+solution progress: 5.095042132079166E-6 progressStep: 6.221052664321255E-9 stepCounter=446246934: 
+turn: 14; last Move: from:(2,6) to:(2,4) possible Moves: [from:(6,2) to:(4,2), from:(4,4) to:(4,2), from:(4,3) to:(2,3), from:(5,4) to:(3,4), from:(4,6) to:(2,6)]
+  XOX  
+  OOO  
+XOXOOXX
+OOOXXXX
+XOXOXXX
+  OOX  
+  OXX  
+solution progress: 5.095042132079166E-6 progressStep: 1.2442105328641833E-9 stepCounter=446246934: 
+turn: 15; last Move: from:(4,6) to:(2,6) possible Moves: [from:(6,2) to:(4,2), from:(4,4) to:(4,2), from:(4,3) to:(2,3), from:(5,4) to:(3,4), from:(4,4) to:(4,6)]
+  XOX  
+  OOO  
+XOXOOXX
+OOOXXXX
+XOXOXXX
+  OOX  
+  XOO  
+solution progress: 5.09628634261203E-6 progressStep: 1.2442105328641833E-9 stepCounter=446251936: 
+turn: 15; last Move: from:(4,6) to:(2,6) possible Moves: [from:(6,2) to:(4,2), from:(4,4) to:(4,2), from:(4,3) to:(2,3), from:(5,4) to:(3,4), from:(4,4) to:(4,6)]
+  XOX  
+  OOO  
+XOXOOXX
+OOOXXXX
+XOXOXXX
+  OOX  
+  XOO  
+solution progress: 5.097530553144894E-6 progressStep: 1.2442105328641833E-9 stepCounter=446253050: 
+turn: 15; last Move: from:(4,6) to:(2,6) possible Moves: [from:(6,2) to:(4,2), from:(4,4) to:(4,2), from:(4,3) to:(2,3), from:(5,4) to:(3,4), from:(4,4) to:(4,6)]
+  XOX  
+  OOO  
+XOXOOXX
+OOOXXXX
+XOXOXXX
+  OOX  
+  XOO  
+solution progress: 5.098774763677759E-6 progressStep: 1.2442105328641833E-9 stepCounter=446254861: 
+turn: 15; last Move: from:(4,6) to:(2,6) possible Moves: [from:(6,2) to:(4,2), from:(4,4) to:(4,2), from:(4,3) to:(2,3), from:(5,4) to:(3,4), from:(4,4) to:(4,6)]
+  XOX  
+  OOO  
+XOXOOXX
+OOOXXXX
+XOXOXXX
+  OOX  
+  XOO  
+solution progress: 5.100018974210623E-6 progressStep: 1.2442105328641833E-9 stepCounter=446257727: 
+turn: 15; last Move: from:(4,6) to:(2,6) possible Moves: [from:(6,2) to:(4,2), from:(4,4) to:(4,2), from:(4,3) to:(2,3), from:(5,4) to:(3,4), from:(4,4) to:(4,6)]
+  XOX  
+  OOO  
+XOXOOXX
+OOOXXXX
+XOXOXXX
+  OOX  
+  XOO  
+solution progress: 5.101263184743488E-6 progressStep: 3.110526332160661E-8 stepCounter=446258240: 
+turn: 13; last Move: from:(2,4) to:(0,4) possible Moves: [from:(6,2) to:(4,2), from:(4,4) to:(4,2), from:(4,3) to:(2,3), from:(2,6) to:(2,4), from:(5,4) to:(3,4)]
+  XOX  
+  OOO  
+XOXOOXX
+OOOXXXX
+XOOOXXX
+  XOX  
+  XXX  
+solution progress: 5.101263184743488E-6 progressStep: 5.184210553601046E-9 stepCounter=446258240: 
+turn: 14; last Move: from:(5,4) to:(3,4) possible Moves: [from:(6,2) to:(4,2), from:(4,3) to:(2,3), from:(2,6) to:(2,4), from:(4,6) to:(4,4), from:(5,2) to:(5,4), from:(3,3) to:(3,5)]
+  XOX  
+  OOO  
+XOXOOXX
+OOOXXXX
+XOOXOOX
+  XOX  
+  XXX  
+solution progress: 5.106447395297089E-6 progressStep: 5.184210553601046E-9 stepCounter=446365121: 
+turn: 14; last Move: from:(5,4) to:(3,4) possible Moves: [from:(6,2) to:(4,2), from:(4,3) to:(2,3), from:(2,6) to:(2,4), from:(4,6) to:(4,4), from:(5,2) to:(5,4), from:(3,3) to:(3,5)]
+  XOX  
+  OOO  
+XOXOOXX
+OOOXXXX
+XOOXOOX
+  XOX  
+  XXX  
+solution progress: 5.11163160585069E-6 progressStep: 5.184210553601046E-9 stepCounter=446522307: 
+turn: 14; last Move: from:(5,4) to:(3,4) possible Moves: [from:(6,2) to:(4,2), from:(4,3) to:(2,3), from:(2,6) to:(2,4), from:(4,6) to:(4,4), from:(5,2) to:(5,4), from:(3,3) to:(3,5)]
+  XOX  
+  OOO  
+XOXOOXX
+OOOXXXX
+XOOXOOX
+  XOX  
+  XXX  
+solution progress: 5.116815816404291E-6 progressStep: 5.184210553601046E-9 stepCounter=446612463: 
+turn: 14; last Move: from:(5,4) to:(3,4) possible Moves: [from:(6,2) to:(4,2), from:(4,3) to:(2,3), from:(2,6) to:(2,4), from:(4,6) to:(4,4), from:(5,2) to:(5,4), from:(3,3) to:(3,5)]
+  XOX  
+  OOO  
+XOXOOXX
+OOOXXXX
+XOOXOOX
+  XOX  
+  XXX  
+solution progress: 5.122000026957892E-6 progressStep: 5.184210553601046E-9 stepCounter=446735184: 
+turn: 14; last Move: from:(5,4) to:(3,4) possible Moves: [from:(6,2) to:(4,2), from:(4,3) to:(2,3), from:(2,6) to:(2,4), from:(4,6) to:(4,4), from:(5,2) to:(5,4), from:(3,3) to:(3,5)]
+  XOX  
+  OOO  
+XOXOOXX
+OOOXXXX
+XOOXOOX
+  XOX  
+  XXX  
+solution progress: 5.127184237511493E-6 progressStep: 5.184210553601046E-9 stepCounter=446801799: 
+turn: 14; last Move: from:(5,4) to:(3,4) possible Moves: [from:(6,2) to:(4,2), from:(4,3) to:(2,3), from:(2,6) to:(2,4), from:(4,6) to:(4,4), from:(5,2) to:(5,4), from:(3,3) to:(3,5)]
+  XOX  
+  OOO  
+XOXOOXX
+OOOXXXX
+XOOXOOX
+  XOX  
+  XXX  
+solution progress: 5.132368448065096E-6 progressStep: 1.555263166080332E-7 stepCounter=446871626: 
+turn: 12; last Move: from:(3,5) to:(3,3) possible Moves: [from:(6,2) to:(4,2), from:(4,4) to:(4,2), from:(4,3) to:(2,3), from:(2,5) to:(2,3), from:(2,4) to:(0,4), from:(1,4) to:(3,4), from:(5,4) to:(3,4)]
+  XOX  
+  OOO  
+XOXOOXX
+OOOXXXX
+OXXOXXX
+  XOX  
+  XXX  
+solution progress: 5.132368448065096E-6 progressStep: 2.5921052768005512E-8 stepCounter=446871626: 
+turn: 13; last Move: from:(1,4) to:(3,4) possible Moves: [from:(6,2) to:(4,2), from:(4,4) to:(4,2), from:(4,3) to:(2,3), from:(4,4) to:(2,4), from:(2,6) to:(2,4), from:(3,3) to:(3,5)]
+  XOX  
+  OOO  
+XOXOOXX
+OOOXXXX
+OOOXXXX
+  XOX  
+  XXX  
+solution progress: 5.132368448065096E-6 progressStep: 3.7030075382864815E-9 stepCounter=446871626: 
+turn: 14; last Move: from:(6,2) to:(4,2) possible Moves: [from:(4,3) to:(4,1), from:(5,4) to:(5,2), from:(6,4) to:(6,2), from:(4,3) to:(2,3), from:(4,4) to:(2,4), from:(2,6) to:(2,4), from:(3,3) to:(3,5)]
+  XOX  
+  OOO  
+XOXOXOO
+OOOXXXX
+OOOXXXX
+  XOX  
+  XXX  
+solution progress: 5.136071455603382E-6 progressStep: 3.7030075382864815E-9 stepCounter=448651202: 
+turn: 14; last Move: from:(6,2) to:(4,2) possible Moves: [from:(4,3) to:(4,1), from:(5,4) to:(5,2), from:(6,4) to:(6,2), from:(4,3) to:(2,3), from:(4,4) to:(2,4), from:(2,6) to:(2,4), from:(3,3) to:(3,5)]
+  XOX  
+  OOO  
+XOXOXOO
+OOOXXXX
+OOOXXXX
+  XOX  
+  XXX  
+solution progress: 5.1397744631416685E-6 progressStep: 3.7030075382864815E-9 stepCounter=449546084: 
+turn: 14; last Move: from:(6,2) to:(4,2) possible Moves: [from:(4,3) to:(4,1), from:(5,4) to:(5,2), from:(6,4) to:(6,2), from:(4,3) to:(2,3), from:(4,4) to:(2,4), from:(2,6) to:(2,4), from:(3,3) to:(3,5)]
+  XOX  
+  OOO  
+XOXOXOO
+OOOXXXX
+OOOXXXX
+  XOX  
+  XXX  
+solution progress: 5.143477470679955E-6 progressStep: 3.7030075382864815E-9 stepCounter=450049682: 
+turn: 14; last Move: from:(6,2) to:(4,2) possible Moves: [from:(4,3) to:(4,1), from:(5,4) to:(5,2), from:(6,4) to:(6,2), from:(4,3) to:(2,3), from:(4,4) to:(2,4), from:(2,6) to:(2,4), from:(3,3) to:(3,5)]
+  XOX  
+  OOO  
+XOXOXOO
+OOOXXXX
+OOOXXXX
+  XOX  
+  XXX  
+solution progress: 5.147180478218241E-6 progressStep: 3.7030075382864815E-9 stepCounter=450337084: 
+turn: 14; last Move: from:(6,2) to:(4,2) possible Moves: [from:(4,3) to:(4,1), from:(5,4) to:(5,2), from:(6,4) to:(6,2), from:(4,3) to:(2,3), from:(4,4) to:(2,4), from:(2,6) to:(2,4), from:(3,3) to:(3,5)]
+  XOX  
+  OOO  
+XOXOXOO
+OOOXXXX
+OOOXXXX
+  XOX  
+  XXX  
+solution progress: 5.150883485756527E-6 progressStep: 3.7030075382864815E-9 stepCounter=451152659: 
+turn: 14; last Move: from:(6,2) to:(4,2) possible Moves: [from:(4,3) to:(4,1), from:(5,4) to:(5,2), from:(6,4) to:(6,2), from:(4,3) to:(2,3), from:(4,4) to:(2,4), from:(2,6) to:(2,4), from:(3,3) to:(3,5)]
+  XOX  
+  OOO  
+XOXOXOO
+OOOXXXX
+OOOXXXX
+  XOX  
+  XXX  
+solution progress: 5.154586493294813E-6 progressStep: 3.7030075382864815E-9 stepCounter=452042064: 
+turn: 14; last Move: from:(6,2) to:(4,2) possible Moves: [from:(4,3) to:(4,1), from:(5,4) to:(5,2), from:(6,4) to:(6,2), from:(4,3) to:(2,3), from:(4,4) to:(2,4), from:(2,6) to:(2,4), from:(3,3) to:(3,5)]
+  XOX  
+  OOO  
+XOXOXOO
+OOOXXXX
+OOOXXXX
+  XOX  
+  XXX  
+solution progress: 5.158289500833102E-6 progressStep: 2.5921052768005512E-8 stepCounter=452915664: 
+turn: 13; last Move: from:(1,4) to:(3,4) possible Moves: [from:(6,2) to:(4,2), from:(4,4) to:(4,2), from:(4,3) to:(2,3), from:(4,4) to:(2,4), from:(2,6) to:(2,4), from:(3,3) to:(3,5)]
+  XOX  
+  OOO  
+XOXOOXX
+OOOXXXX
+OOOXXXX
+  XOX  
+  XXX  
+solution progress: 5.158289500833102E-6 progressStep: 4.3201754613342286E-9 stepCounter=452915664: 
+turn: 14; last Move: from:(4,4) to:(4,2) possible Moves: [from:(5,2) to:(3,2), from:(6,3) to:(4,3), from:(2,6) to:(2,4), from:(6,4) to:(4,4), from:(4,6) to:(4,4), from:(3,3) to:(3,5)]
+  XOX  
+  OOO  
+XOXOXXX
+OOOXOXX
+OOOXOXX
+  XOX  
+  XXX  
+solution progress: 5.162609676294436E-6 progressStep: 4.3201754613342286E-9 stepCounter=453509213: 
+turn: 14; last Move: from:(4,4) to:(4,2) possible Moves: [from:(5,2) to:(3,2), from:(6,3) to:(4,3), from:(2,6) to:(2,4), from:(6,4) to:(4,4), from:(4,6) to:(4,4), from:(3,3) to:(3,5)]
+  XOX  
+  OOO  
+XOXOXXX
+OOOXOXX
+OOOXOXX
+  XOX  
+  XXX  
+solution progress: 5.16692985175577E-6 progressStep: 4.3201754613342286E-9 stepCounter=453984047: 
+turn: 14; last Move: from:(4,4) to:(4,2) possible Moves: [from:(5,2) to:(3,2), from:(6,3) to:(4,3), from:(2,6) to:(2,4), from:(6,4) to:(4,4), from:(4,6) to:(4,4), from:(3,3) to:(3,5)]
+  XOX  
+  OOO  
+XOXOXXX
+OOOXOXX
+OOOXOXX
+  XOX  
+  XXX  
+solution progress: 5.171250027217104E-6 progressStep: 4.3201754613342286E-9 stepCounter=454364783: 
+turn: 14; last Move: from:(4,4) to:(4,2) possible Moves: [from:(5,2) to:(3,2), from:(6,3) to:(4,3), from:(2,6) to:(2,4), from:(6,4) to:(4,4), from:(4,6) to:(4,4), from:(3,3) to:(3,5)]
+  XOX  
+  OOO  
+XOXOXXX
+OOOXOXX
+OOOXOXX
+  XOX  
+  XXX  
+solution progress: 5.175570202678438E-6 progressStep: 4.3201754613342286E-9 stepCounter=454999766: 
+turn: 14; last Move: from:(4,4) to:(4,2) possible Moves: [from:(5,2) to:(3,2), from:(6,3) to:(4,3), from:(2,6) to:(2,4), from:(6,4) to:(4,4), from:(4,6) to:(4,4), from:(3,3) to:(3,5)]
+  XOX  
+  OOO  
+XOXOXXX
+OOOXOXX
+OOOXOXX
+  XOX  
+  XXX  
+solution progress: 5.179890378139772E-6 progressStep: 4.3201754613342286E-9 stepCounter=455155334: 
+turn: 14; last Move: from:(4,4) to:(4,2) possible Moves: [from:(5,2) to:(3,2), from:(6,3) to:(4,3), from:(2,6) to:(2,4), from:(6,4) to:(4,4), from:(4,6) to:(4,4), from:(3,3) to:(3,5)]
+  XOX  
+  OOO  
+XOXOXXX
+OOOXOXX
+OOOXOXX
+  XOX  
+  XXX  
+solution progress: 5.184210553601107E-6 progressStep: 2.5921052768005512E-8 stepCounter=455610333: 
+turn: 13; last Move: from:(1,4) to:(3,4) possible Moves: [from:(6,2) to:(4,2), from:(4,4) to:(4,2), from:(4,3) to:(2,3), from:(4,4) to:(2,4), from:(2,6) to:(2,4), from:(3,3) to:(3,5)]
+  XOX  
+  OOO  
+XOXOOXX
+OOOXXXX
+OOOXXXX
+  XOX  
+  XXX  
+solution progress: 5.184210553601107E-6 progressStep: 4.3201754613342286E-9 stepCounter=455610333: 
+turn: 14; last Move: from:(4,3) to:(2,3) possible Moves: [from:(6,2) to:(4,2), from:(6,3) to:(4,3), from:(4,5) to:(4,3), from:(2,2) to:(2,4), from:(4,4) to:(2,4), from:(2,6) to:(2,4)]
+  XOX  
+  OOO  
+XOXOOXX
+OOXOOXX
+OOOXXXX
+  XOX  
+  XXX  
+solution progress: 5.188530729062441E-6 progressStep: 4.3201754613342286E-9 stepCounter=455897735: 
+turn: 14; last Move: from:(4,3) to:(2,3) possible Moves: [from:(6,2) to:(4,2), from:(6,3) to:(4,3), from:(4,5) to:(4,3), from:(2,2) to:(2,4), from:(4,4) to:(2,4), from:(2,6) to:(2,4)]
+  XOX  
+  OOO  
+XOXOOXX
+OOXOOXX
+OOOXXXX
+  XOX  
+  XXX  
+solution progress: 5.192850904523775E-6 progressStep: 4.3201754613342286E-9 stepCounter=456246222: 
+turn: 14; last Move: from:(4,3) to:(2,3) possible Moves: [from:(6,2) to:(4,2), from:(6,3) to:(4,3), from:(4,5) to:(4,3), from:(2,2) to:(2,4), from:(4,4) to:(2,4), from:(2,6) to:(2,4)]
+  XOX  
+  OOO  
+XOXOOXX
+OOXOOXX
+OOOXXXX
+  XOX  
+  XXX  
+solution progress: 5.197171079985109E-6 progressStep: 4.3201754613342286E-9 stepCounter=457329355: 
+turn: 14; last Move: from:(4,3) to:(2,3) possible Moves: [from:(6,2) to:(4,2), from:(6,3) to:(4,3), from:(4,5) to:(4,3), from:(2,2) to:(2,4), from:(4,4) to:(2,4), from:(2,6) to:(2,4)]
+  XOX  
+  OOO  
+XOXOOXX
+OOXOOXX
+OOOXXXX
+  XOX  
+  XXX  
+solution progress: 5.201491255446443E-6 progressStep: 4.3201754613342286E-9 stepCounter=457770034: 
+turn: 14; last Move: from:(4,3) to:(2,3) possible Moves: [from:(6,2) to:(4,2), from:(6,3) to:(4,3), from:(4,5) to:(4,3), from:(2,2) to:(2,4), from:(4,4) to:(2,4), from:(2,6) to:(2,4)]
+  XOX  
+  OOO  
+XOXOOXX
+OOXOOXX
+OOOXXXX
+  XOX  
+  XXX  
+solution progress: 5.201491255446443E-6 progressStep: 1.0800438653335218E-9 stepCounter=457770034: 
+turn: 15; last Move: from:(4,4) to:(2,4) possible Moves: [from:(6,2) to:(4,2), from:(6,3) to:(4,3), from:(6,4) to:(4,4), from:(4,6) to:(4,4)]
+  XOX  
+  OOO  
+XOXOOXX
+OOXOOXX
+OOXOOXX
+  XOX  
+  XXX  
+solution progress: 5.202571299311777E-6 progressStep: 1.0800438653335218E-9 stepCounter=457771735: 
+turn: 15; last Move: from:(4,4) to:(2,4) possible Moves: [from:(6,2) to:(4,2), from:(6,3) to:(4,3), from:(6,4) to:(4,4), from:(4,6) to:(4,4)]
+  XOX  
+  OOO  
+XOXOOXX
+OOXOOXX
+OOXOOXX
+  XOX  
+  XXX  
+solution progress: 5.20365134317711E-6 progressStep: 1.0800438653335218E-9 stepCounter=457776954: 
+turn: 15; last Move: from:(4,4) to:(2,4) possible Moves: [from:(6,2) to:(4,2), from:(6,3) to:(4,3), from:(6,4) to:(4,4), from:(4,6) to:(4,4)]
+  XOX  
+  OOO  
+XOXOOXX
+OOXOOXX
+OOXOOXX
+  XOX  
+  XXX  
+solution progress: 5.204731387042444E-6 progressStep: 1.0800438653335218E-9 stepCounter=457777169: 
+turn: 15; last Move: from:(4,4) to:(2,4) possible Moves: [from:(6,2) to:(4,2), from:(6,3) to:(4,3), from:(6,4) to:(4,4), from:(4,6) to:(4,4)]
+  XOX  
+  OOO  
+XOXOOXX
+OOXOOXX
+OOXOOXX
+  XOX  
+  XXX  
+solution progress: 5.2058114309077774E-6 progressStep: 4.3201754613342286E-9 stepCounter=457787214: 
+turn: 14; last Move: from:(4,3) to:(2,3) possible Moves: [from:(6,2) to:(4,2), from:(6,3) to:(4,3), from:(4,5) to:(4,3), from:(2,2) to:(2,4), from:(4,4) to:(2,4), from:(2,6) to:(2,4)]
+  XOX  
+  OOO  
+XOXOOXX
+OOXOOXX
+OOOXXXX
+  XOX  
+  XXX  
+solution progress: 5.210131606369112E-6 progressStep: 2.5921052768005512E-8 stepCounter=458837123: 
+turn: 13; last Move: from:(1,4) to:(3,4) possible Moves: [from:(6,2) to:(4,2), from:(4,4) to:(4,2), from:(4,3) to:(2,3), from:(4,4) to:(2,4), from:(2,6) to:(2,4), from:(3,3) to:(3,5)]
+  XOX  
+  OOO  
+XOXOOXX
+OOOXXXX
+OOOXXXX
+  XOX  
+  XXX  
+solution progress: 5.210131606369112E-6 progressStep: 5.184210553601074E-9 stepCounter=458837123: 
+turn: 14; last Move: from:(4,4) to:(2,4) possible Moves: [
+from:(6,2) to:(4,2), from:(4,3) to:(2,3), from:(2,5) to:(2,3), from:(6,4) to:(4,4), from:(4,6) to:(4,4)]
+  XOX  
+  OOO  
+XOXOOXX
+OOOXXXX
+OOXOOXX
+  XOX  
+  XXX  

@@ -1,0 +1,57 @@
+solving solitair
+
+1.) definition of Solution
+A Solution is, when the game ends with one pin residing in the middle of the field.
+
+2.) inversion of the field
+Inversion means placing a pin, where an empty field was and removing all pins.
+
+3.) Symmetries of the game
+- the solution is the inverse of the starting board.
+- 2 formations are equivalent, if they are identical after rotating 0,90,180 or 270 and optionally mirroring (flipping up to down) - thus (up to) 8 different formations are equivalent.
+[remark: rotating n degrees and then flipping left to right is the same as rotating n+180 degrees and flipping up to down]
+
+4.) inverse move
+- lets have one move m changing formation a to b, and the formation a' is inverse to a and b' is inverse to b. Then there is a move changing b' to a' - this one is called the "inverse move" 
+
+5.) hashing a formation
+the fields are numerated starting with 0 (we have 33 fields)
+
+a 33-bit-hash is computed by calculating sum_over_all_fields( (fieldisfilled?1:0)*2^fieldnum)
+a 32-bit-hash is computed using only the first 32 fields.
+
+
+
+6.) inverse move serieses
+Lets have a series of moves M consisting of n moves m1, m2, ... mn. let mi' be the inverse of mi.
+M changes formation a to b, and the formation a' is inverse to a and b' is inverse to b. Then there is a move series M' changing b' to a' - this one is called the "inverse move" and is mn', m(n-1)', ... m2', m1'.
+
+7.) finding a formation, which is a solution can be done by starting with the starting position, doing any move series M ending up in formation a, the inverse a' of a then is a solution to the game using the moves M' which are the inverse of M
+
+8.) managing solution formations.
+Lets build a hash table containing one equivalence of all solutions. 
+To provide this we use the smallest hash value of all 8 equivalent formations
+
+8a) filling the formations:
+ step 1) We run from 32 pins (start position) down to 16 pins (16 moves). inverting this formation now gives 17 pins. Each of this is a solution (see M-M'!). We thus get the list of ALL(!) solvable formations with 1 to 17 pins while doing this with each combination of moves.
+ step 2) We run from 32 pins (start position) down to 17 pins (15 moves) - now checking the hash table for solvable formations found in step 1 gives the possibility to add formations with 18 to 32 pins. :) --> thus we only need to check the square root of all possible move combinations - guessing, that is about sqrt(5~32) thus ~5^16 = 10^11 --- hugh enough!
+
+To preserve memory, we can use 15 moves in step 1 and 16 in step 2.
+
+a complete list of boolean values for all hashvalues/boards will use 1GiB (2^33=8Gi, each Byte 8 Bits)
+according to first test runs, we expect ~5E8 different move-combinations to get to turn 15.
+so both seems PC-fitting:
+
+a) a bitfield for each hash with 
+  "0": not reached and 
+  "1": reached in turn 15 in at least one of all movecombinations. 
+b) a set containing each long hash value of reached formations(lienUps) in turn 15.
+
+with the memory consumption:
+a) 1GiB
+b) 4E9 Bytes for the hashes, additional 4E9 Bytes for set overhead?
+
+since variant a) seems more safe in memory consumption and indeed even a lot faster, it should be our choice...
+
+
+
