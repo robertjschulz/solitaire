@@ -30,7 +30,7 @@ public class LineUp implements Cloneable{
 		for (int i = 0; i < lineUp.length; i++) {
 			lineUp[i]=true;
 		}		
-		lineUp[GeneralField.getIdxFromXY(3, 3)]=false;
+		lineUp[GeneralField.getIdxFromXY(3, 3)] = false;
 	}
 	
 	public void invert() {

@@ -66,7 +66,8 @@ public class SolitairApplet extends Applet implements ActionListener {
 
 	public SolitairApplet() throws HeadlessException {
 		super();
-
+		super.setBounds(0, 0, 300, 300);
+		
 		// System.out.println("SolitairApplet created");
 
 		// GraphicsConfiguration config = new GraphicsConfiguration();
@@ -141,6 +142,7 @@ public class SolitairApplet extends Applet implements ActionListener {
 		// this.doLayout();
 //		updateBoardDisplay();
 		startGame();
+//		updateBoardDisplay();
 		random = new Random();
 	}
 

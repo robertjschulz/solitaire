@@ -40,6 +40,7 @@ To preserve memory, we can use 15 moves in step 1 and 16 in step 2.
 
 a complete list of boolean values for all hashvalues/boards will use 1GiB (2^33=8Gi, each Byte 8 Bits)
 according to first test runs, we expect ~5E8 different move-combinations to get to turn 15.
+But we found ~1E11 different(?) lineUps in move 15 in first calculation... taking ~1year on my laptop 8-o
 so both seems PC-fitting:
 
 a) a bitfield for each hash with 
@@ -53,5 +54,10 @@ b) 4E9 Bytes for the hashes, additional 4E9 Bytes for set overhead?
 
 since variant a) seems more safe in memory consumption and indeed even a lot faster, it should be our choice...
 
-
-
+9) optimizing move-iteration
+9a) often a lot of moves are possible and can be done in different order --> this MUST be prohibited!
+9b) symmetries (see above) have to be ignored
+9c) to address both: we store the board-IDs (which are calculated symmetry-irrelevant) and keep 
+    them stored in a set - one set per turn-Number. It will surely be flooded, so it has to be limited e.g.: clean each one that is n (~4?) turns ahead (which may easyly rise to about 8^4 in size!)
+     
+     

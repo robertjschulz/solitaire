@@ -4,16 +4,19 @@ import java.awt.Color;
 import java.awt.Component;
 import java.awt.Dimension;
 import java.awt.Graphics;
+import java.awt.Polygon;
 import java.awt.Rectangle;
 import java.awt.event.MouseEvent;
 import java.awt.event.MouseListener;
 import java.util.Collection;
 import java.util.LinkedList;
 import java.util.Set;
+import java.util.Vector;
 
 import de.rosaschulz.spiele.solitair.model.Board;
 import de.rosaschulz.spiele.solitair.model.FieldValue;
 import de.rosaschulz.spiele.solitair.model.Coordinate;
+import de.rosaschulz.spiele.solitair.model.GeneralField;
 import de.rosaschulz.spiele.solitair.model.Move;
 
 public class BoardComponent extends Component implements MouseListener {
@@ -44,52 +47,70 @@ public class BoardComponent extends Component implements MouseListener {
 		int x, y;
 		for (x = 0; x < 7; x++) {
 			for (y = 0; y < 7; y++) {
-				boolean field = board.getFeld(x, y);
-
-				Rectangle framerec = getFieldFrame(x, y);
-				Rectangle fieldrec = getFieldRectangle(x, y);
-				g.setColor(Color.BLACK);
-				g.drawRect(framerec.x, framerec.y, framerec.width,
-						framerec.height);
-				if (field) {
-					boolean isSelected = false;
-					boolean isBestMove = (board.bestMove != null 
-							&& board.bestMove.getFrom().equals(x,y));
-					if (selected != null && selected.equals(x,y) ) {
-						isSelected = true;
-					}
-					g.setPaintMode();
-					if (isSelected) {
-						g.setColor(Color.RED);
-					} else {
-						boolean gefunden = isInAllMovesFrom(x, y);
-						if (isBestMove) {
-							g.setColor(Color.GREEN);
-						} else if(gefunden) {
-							g.setColor(Color.YELLOW);
-						} else {
-							g.setColor(Color.GRAY);
+				if(Coordinate.checkRange(x, y)) {
+					Rectangle framerec = getFieldFrame(x, y);
+					Rectangle fieldrec = getFieldRectangle(x, y);
+					g.setColor(Color.BLACK);
+					g.drawRect(framerec.x, framerec.y, framerec.width,
+							framerec.height);
+					boolean field = board.getFeld(x, y);
+					if(field) {
+						boolean isSelected = false;
+						boolean isBestMove = (board.bestMove != null 
+								&& board.bestMove.getFrom().equals(x,y));
+						if (selected != null && selected.equals(x,y) ) {
+							isSelected = true;
 						}
+						g.setPaintMode();
+						Collection<Move> movesFromHere = getMovesFrom(x, y);
+						if (isSelected) {
+							g.setColor(Color.RED);
+						} else {
+							if (isBestMove) {
+								g.setColor(Color.GREEN);
+							} else if(movesFromHere.size()>0) {
+								g.setColor(Color.YELLOW);
+							} else {
+								g.setColor(Color.GRAY);
+							}
+						}
+						g.fillOval(fieldrec.x, fieldrec.y, fieldrec.width,
+								fieldrec.height);
+						// Paint Move-Directions
+						for (Move move : movesFromHere) {
+							int midx = fieldrec.x+fieldrec.width/2;
+							int midy = fieldrec.y+fieldrec.height/2;
+							int dx = (move.to.x-move.from.x)/2;
+							int dy = (move.to.y-move.from.y)/2;
+							int tx = midx+fieldrec.width/2*dx;
+							int ty = midy+fieldrec.height/2*dy;
+							g.setColor(Color.BLACK);
+							g.drawLine(midx, midy, tx, ty);
+							int w=2,l=5;
+							Polygon p = new Polygon();
+							p.addPoint(tx, ty);
+							p.addPoint(tx += -l*dx -   w*dy , ty +=    w*dx - l*dy);
+							p.addPoint(tx +=       + 2*w*dy , ty += -2*w*dx       );
+							p.addPoint(tx +=  l*dx -   w*dy , ty +=    w*dx + l*dy);
+							g.drawPolygon(p );
+						}
+					} else {
+						g.clearRect(fieldrec.x, fieldrec.y, fieldrec.width,
+								fieldrec.height);
 					}
-					g.fillOval(fieldrec.x, fieldrec.y, fieldrec.width,
-							fieldrec.height);
-				} else {
-					g.clearRect(fieldrec.x, fieldrec.y, fieldrec.width,
-							fieldrec.height);
 				}
 
 				// g.drawString(s, xoff + fieldwidth * x, yoff + fieldheight
 				// * (y + 1));
+
 			}
 		}
 	}
 
-	private boolean isInAllMovesFrom(int x, int y) {
-		Collection<Move> allMoves = board.getAllMoves();
-		for (Move move : allMoves) {
-			if (move.getFrom().equals(x,y)) return true;
-		}
-		return false;
+	private Collection<Move> getMovesFrom(int x, int y) {
+		Collection<Move> moves = new Vector<Move>();
+		board.addMovesFrom(moves, GeneralField.getIdxFromXY(x, y));
+		return moves;
 	}
 
 	private Rectangle getFieldRectangle(int x, int y) {
@@ -138,21 +159,31 @@ public class BoardComponent extends Component implements MouseListener {
 					// Field field = board.feld[x][y];
 					Rectangle fieldrec = getFieldRectangle(x, y);
 					if (fieldrec.contains(mx, my)) {
-						if (selected == null) {
-							if (isInAllMovesFrom(x, y)) {
-								selected = new Coordinate(x, y);
-								this.repaint();
-							}
-						} else {
-							if( ! board.getFeld(x, y)) {
-								// todo: check move
-								Move move = new Move(selected, new Coordinate(x,y));
-								board.doMove(move);
-								//board.setSolution();
+						Collection<Move> movesFrom = getMovesFrom(x, y);
+						if (!movesFrom.isEmpty()) {
+							if (movesFrom.size()==1) {
+								board.doMove(movesFrom.iterator().next());
 								selected = null;
-								this.repaint();
-							} else if(isInAllMovesFrom(x, y)) {
+							} else {
 								selected = new Coordinate(x, y);
+							}
+							this.repaint();
+						} else {
+							if (selected != null && ! board.getFeld(x, y)) {
+								Move checkedMove = null;
+								Collection<Move> movesFromSelected = getMovesFrom(selected.x,selected.y);
+								for (Move moveFromSelected : movesFromSelected) {
+									if(moveFromSelected.to.equals(x,y)) {
+										checkedMove=moveFromSelected;
+										break; // foreach
+									}
+								}
+								if(checkedMove == null) {
+									selected = null;
+								} else {
+									board.doMove(checkedMove);
+									selected = null;
+								}
 								this.repaint();
 							}
 						}

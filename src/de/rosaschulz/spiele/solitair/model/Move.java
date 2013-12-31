@@ -14,9 +14,10 @@ package de.rosaschulz.spiele.solitair.model;
  * Window>Preferences>Java>Code Generation>Code and Comments
  */
 public class Move implements Comparable<Move>{
-	Coordinate from;
-	Coordinate to;
-	Coordinate mid;
+	int idx;
+	public Coordinate from;
+	public Coordinate to;
+	public Coordinate mid;
 	int fromIdx, toIdx, midIdx;
 	Richtung richtung;
 
@@ -90,11 +91,16 @@ public class Move implements Comparable<Move>{
 
 	@Override
 	public int compareTo(Move o) {
-		return Integer.compare(hash(), o.hash());
+		return Integer.compare(idx, o.idx);
 	}
-
-	private int hash() {
-		return getFrom().x+7*(getFrom().y+7*(to.x+7*to.y));
-	}
+	
+//	@Override
+//	public int compareTo(Move o) {
+//		return Integer.compare(hash(), o.hash());
+//	}
+//
+//	private int hash() {
+//		return getFrom().x+7*(getFrom().y+7*(to.x+7*to.y));
+//	}
 
 }

@@ -34,7 +34,7 @@ public class Board {
 	LineUp lineUp;
 	long currentLineUpId;
 	int turnNumber;
-	Collection<Move> possibleMoves;
+	public Collection<Move> possibleMoves;
 	
 	// History
 	MoveHistory moveHistory;
@@ -112,7 +112,10 @@ public class Board {
 			}
 		}
 		System.out.println("number of general moves: " + moves.size());
-		
+		// create "index" on moves
+		for (int i = 0; i < moves.size(); i++) {
+			moves.get(i).idx=i;
+		}
 		// create "index" on Fields pointing to these moves
 		for (Move move : moves) {
 			GeneralField.getAt(move.fromIdx).fromMoves.add(move);
@@ -187,7 +190,7 @@ public class Board {
 
 		assert(turnNumber == possibleMovesStack.size());
 		
-		setLineUpId();
+		//setLineUpId();
 	}
 
 	public void undoMove() {
@@ -354,7 +357,7 @@ public class Board {
 		return lineUp.count();
 	}
 
-	private void addMovesFrom(Collection<Move> result, int fromIdx) {
+	public void addMovesFrom(Collection<Move> result, int fromIdx) {
 		GeneralField fromField = GeneralField.getAt(fromIdx);
 		if(lineUp.get(fromIdx)) {
 			for (Move move : fromField.fromMoves) {
@@ -365,7 +368,7 @@ public class Board {
 		}
 	}
 
-	private void addMovesTo(Collection<Move> result, int toIdx) {
+	public void addMovesTo(Collection<Move> result, int toIdx) {
 		GeneralField toField = GeneralField.getAt(toIdx);
 		if(! lineUp.get(toIdx)) {
 			for (Move move : toField.toMoves) {
@@ -376,7 +379,7 @@ public class Board {
 		}
 	}
 
-	private void addMovesOver(Collection<Move> result, int midIdx) {
+	public void addMovesOver(Collection<Move> result, int midIdx) {
 		GeneralField midField = GeneralField.getAt(midIdx);
 		if(lineUp.get(midIdx)) {
 			for (Move move : midField.midMoves) {
