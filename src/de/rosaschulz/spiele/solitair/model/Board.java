@@ -28,11 +28,13 @@ import de.rosaschulz.spiele.solitair.Formation;
 import de.rosaschulz.spiele.solitair.IFForEachField;
 
 //public class Board extends Formation {
-public class Board {
+public class Board implements Cloneable {
 
 	// State
 	LineUp lineUp;
 	long currentLineUpId;
+	boolean useLineUpId;
+	
 	int turnNumber;
 	public Collection<Move> possibleMoves;
 	
@@ -78,6 +80,7 @@ public class Board {
 	
 	public Board() {
 		super();
+		useLineUpId=true;
 		lineUp = new LineUp();
 		setStart();
 	}
@@ -190,7 +193,11 @@ public class Board {
 
 		assert(turnNumber == possibleMovesStack.size());
 		
-		//setLineUpId();
+		bestMove = null;
+
+		if(useLineUpId) {
+			setLineUpId();
+		}
 	}
 
 	public void undoMove() {
@@ -242,85 +249,85 @@ public class Board {
 
 
 	@Override
-	protected Object clone() throws CloneNotSupportedException {
+	public Object clone() throws CloneNotSupportedException {
 		Object board = super.clone();
 		((Board)board).lineUp = (LineUp) lineUp.clone();
 		return board;
 	}
 
-	/**
-	 * @return ranking: number of left pins, 0 for one in the middle (perfect solution)
-	 */
-	public int solve()  {
-		MoveHistory solution = new MoveHistory();
-		stepCounter = 0;
-		lastProgressInfo=0.0;
-		
-		System.out.println("start: " + new Date());
-		int ranking = solve(solution, 0.0, 800.0);
-		System.out.println("solved with best ranking "+ranking+" after trying " + stepCounter + " moves");
-		bestResult=ranking;
-		bestMove=null;
-		if(solution.size() > 0) {
-			bestMove=solution.getFirst();
-		}
-		return ranking;
-	}
+//	/**
+//	 * @return ranking: number of left pins, 0 for one in the middle (perfect solution)
+//	 */
+//	public int solve()  {
+//		MoveHistory solution = new MoveHistory();
+//		stepCounter = 0;
+//		lastProgressInfo=0.0;
+//		
+//		System.out.println("start: " + new Date());
+//		int ranking = solve(solution, 0.0, 800.0);
+//		System.out.println("solved with best ranking "+ranking+" after trying " + stepCounter + " moves");
+//		bestResult=ranking;
+//		bestMove=null;
+//		if(solution.size() > 0) {
+//			bestMove=solution.getFirst();
+//		}
+//		return ranking;
+//	}
 
-	/**
-	 * @param solution
-	 * @param stepCounter 
-	 * @return number of sticks left in best result or 0 if last pin is in center
-	 */
-	public int solve(MoveHistory solution, double progressStart, double progressEnd) {
-
-		// if (moveHistory.stepCounter % 1000 == 0) {
-		// System.out.println("Board after " + moveHistory + " moves:");
-		//System.out.println("solve: turn " + zugNummer + "");
-		//System.out.print("stepCounter="+stepCounter+": ");
-		//printOut(System.out);
-		// }
-		int bestResult = 49;
-		//LinkedList<Move> possibleMoves = getAllMoves();
-		Collection<Move> currentPossibleMoves = possibleMoves;
-		if (currentPossibleMoves.size() == 0) {
-			bestResult = getWertung(); //countSteine();
-		} else {
-			// int i = 0;
-			double progress=progressStart;
-			double progressStep=(progressEnd-progressStart)/currentPossibleMoves.size();
-			for (Iterator<Move> iter = currentPossibleMoves.iterator(); iter.hasNext();) {
-				Move move = iter.next();
-				// System.out.println("Move Nr." + i + ": " + move.toString());
-				if(progressStep >  1E-9 ) {
-					System.out.println("solution progress: " + progress + " progressStep: " + progressStep + " stepCounter="+stepCounter+": ");
-					printOut(System.out);
-					lastProgressInfo=progress;
-				}
-				doMove(move);
-				
-				int lastResult = solve(solution, progress, progress+progressStep);
-				undoMove();
-				
-				stepCounter++;
-				progress+=progressStep;
-
-				if (lastResult < bestResult) {
-					bestResult = lastResult;
-				}
-				if (bestResult == 0) {
-					solution.addFirst(move);
-					break;
-				}
-				// i++;
-			}
-		}
-		if (bestResult == 0) {
-			//System.out.println("Zug Nr. " + turnNumber + ":");
-			printOut(System.out);
-		}
-		return bestResult;
-	}
+//	/**
+//	 * @param solution
+//	 * @param stepCounter 
+//	 * @return number of sticks left in best result or 0 if last pin is in center
+//	 */
+//	public int solve(MoveHistory solution, double progressStart, double progressEnd) {
+//
+//		// if (moveHistory.stepCounter % 1000 == 0) {
+//		// System.out.println("Board after " + moveHistory + " moves:");
+//		//System.out.println("solve: turn " + zugNummer + "");
+//		//System.out.print("stepCounter="+stepCounter+": ");
+//		//printOut(System.out);
+//		// }
+//		int bestResult = 49;
+//		//LinkedList<Move> possibleMoves = getAllMoves();
+//		Collection<Move> currentPossibleMoves = possibleMoves;
+//		if (currentPossibleMoves.size() == 0) {
+//			bestResult = getWertung(); //countSteine();
+//		} else {
+//			// int i = 0;
+//			double progress=progressStart;
+//			double progressStep=(progressEnd-progressStart)/currentPossibleMoves.size();
+//			for (Iterator<Move> iter = currentPossibleMoves.iterator(); iter.hasNext();) {
+//				Move move = iter.next();
+//				// System.out.println("Move Nr." + i + ": " + move.toString());
+//				if(progressStep >  1E-9 ) {
+//					System.out.println("solution progress: " + progress + " progressStep: " + progressStep + " stepCounter="+stepCounter+": ");
+//					printOut(System.out);
+//					lastProgressInfo=progress;
+//				}
+//				doMove(move);
+//				
+//				int lastResult = solve(solution, progress, progress+progressStep);
+//				undoMove();
+//				
+//				stepCounter++;
+//				progress+=progressStep;
+//
+//				if (lastResult < bestResult) {
+//					bestResult = lastResult;
+//				}
+//				if (bestResult == 0) {
+//					solution.addFirst(move);
+//					break;
+//				}
+//				// i++;
+//			}
+//		}
+//		if (bestResult == 0) {
+//			//System.out.println("Zug Nr. " + turnNumber + ":");
+//			printOut(System.out);
+//		}
+//		return bestResult;
+//	}
 
 	private int getSteineZahlFromZugNummer() {
 		return 32-turnNumber;
@@ -329,7 +336,7 @@ public class Board {
 	/**
 	 * @return number of sticks left in best result or 0 if last pin is in center
 	 */
-	public int getWertung() {
+	public int getRanking() {
 		int count = getSteineZahlFromZugNummer();
 		if (count == 1) {
 			if (lineUp.get(3,3)) {
@@ -439,10 +446,10 @@ public class Board {
 //		return bestResult;
 //	}
 
-	public void setSolution() {
-		solve();
-		System.out.println("solved after trying " + stepCounter + " moves");
-	}
+//	public void setSolution() {
+//		doSolve();
+//		System.out.println("solved after trying " + stepCounter + " moves");
+//	}
 
 	public int getBestResult() {
 		return bestResult;

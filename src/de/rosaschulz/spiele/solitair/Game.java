@@ -10,6 +10,7 @@ package de.rosaschulz.spiele.solitair;
 import java.util.Vector;
 
 import de.rosaschulz.spiele.solitair.model.Board;
+import de.rosaschulz.spiele.solitair.model.IterativeSolver;
 import de.rosaschulz.spiele.solitair.model.Move;
 
 /**
@@ -50,7 +51,8 @@ public class Game {
 		System.out.println();
 		
 		long start = System.nanoTime();
-		myBoard.solve();
+		IterativeSolver solver = new IterativeSolver(myBoard);
+		solver.doSolve();
 		long end=System.nanoTime();
 		System.out.println("solving took " + (end-start)*1E-9 + " seconds...");
 		System.out.println();

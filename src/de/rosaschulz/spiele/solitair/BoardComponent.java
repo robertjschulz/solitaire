@@ -17,6 +17,7 @@ import de.rosaschulz.spiele.solitair.model.Board;
 import de.rosaschulz.spiele.solitair.model.FieldValue;
 import de.rosaschulz.spiele.solitair.model.Coordinate;
 import de.rosaschulz.spiele.solitair.model.GeneralField;
+import de.rosaschulz.spiele.solitair.model.IterativeSolver;
 import de.rosaschulz.spiele.solitair.model.Move;
 
 public class BoardComponent extends Component implements MouseListener {
@@ -38,6 +39,8 @@ public class BoardComponent extends Component implements MouseListener {
 
 	Coordinate selected;
 
+	private Thread solverThread;
+
 	@Override
 	public void paint(Graphics g) {
 		
@@ -56,7 +59,7 @@ public class BoardComponent extends Component implements MouseListener {
 					boolean field = board.getFeld(x, y);
 					if(field) {
 						boolean isSelected = false;
-						boolean isBestMove = (board.bestMove != null 
+						boolean isBestMoveSrc = (board.bestMove != null 
 								&& board.bestMove.getFrom().equals(x,y));
 						if (selected != null && selected.equals(x,y) ) {
 							isSelected = true;
@@ -66,7 +69,7 @@ public class BoardComponent extends Component implements MouseListener {
 						if (isSelected) {
 							g.setColor(Color.RED);
 						} else {
-							if (isBestMove) {
+							if (isBestMoveSrc) {
 								g.setColor(Color.GREEN);
 							} else if(movesFromHere.size()>0) {
 								g.setColor(Color.YELLOW);
@@ -78,13 +81,15 @@ public class BoardComponent extends Component implements MouseListener {
 								fieldrec.height);
 						// Paint Move-Directions
 						for (Move move : movesFromHere) {
+							boolean isBestMove = (board.bestMove != null 
+									&& board.bestMove.equals(move));
+							g.setColor(isBestMove?Color.BLACK:Color.GRAY);
 							int midx = fieldrec.x+fieldrec.width/2;
 							int midy = fieldrec.y+fieldrec.height/2;
 							int dx = (move.to.x-move.from.x)/2;
 							int dy = (move.to.y-move.from.y)/2;
 							int tx = midx+fieldrec.width/2*dx;
 							int ty = midy+fieldrec.height/2*dy;
-							g.setColor(Color.BLACK);
 							g.drawLine(midx, midy, tx, ty);
 							int w=2,l=5;
 							Polygon p = new Polygon();
@@ -132,6 +137,7 @@ public class BoardComponent extends Component implements MouseListener {
 		selected = null;
 		this.setMinimumSize(getPreferredSize());
 		this.addMouseListener(this);
+		solverThread = null;
 	}
 
 	@Override
@@ -147,6 +153,7 @@ public class BoardComponent extends Component implements MouseListener {
 
 	public void setBoard(Board board) {
 		this.board = board;
+		startSolverThread();
 	}
 
 	public void mouseClicked(MouseEvent e) {
@@ -162,8 +169,7 @@ public class BoardComponent extends Component implements MouseListener {
 						Collection<Move> movesFrom = getMovesFrom(x, y);
 						if (!movesFrom.isEmpty()) {
 							if (movesFrom.size()==1) {
-								board.doMove(movesFrom.iterator().next());
-								selected = null;
+								doMove(movesFrom.iterator().next());
 							} else {
 								selected = new Coordinate(x, y);
 							}
@@ -181,8 +187,7 @@ public class BoardComponent extends Component implements MouseListener {
 								if(checkedMove == null) {
 									selected = null;
 								} else {
-									board.doMove(checkedMove);
-									selected = null;
+									doMove(checkedMove);
 								}
 								this.repaint();
 							}
@@ -192,6 +197,62 @@ public class BoardComponent extends Component implements MouseListener {
 			}
 		}
 
+	}
+
+
+	private void doMove(Move checkedMove) {
+		board.doMove(checkedMove);
+		startSolverThread();
+		//workerThread.st
+		selected = null;
+	}
+
+	private void startSolverThread() {
+		if(solverThread!=null) {
+			System.out.println("SolverThread in state: "+solverThread.getState());
+		}
+		if(solverThread!=null && solverThread.isAlive()) {
+			System.out.println("SolverThread is still alive... interrupting!");
+			solverThread.interrupt();
+			try {
+				solverThread.join();
+			} catch (InterruptedException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
+			solverThread=null;
+		}
+		solverThread = new Thread() { 
+			public void run() {
+				Board solverBoard;
+				try {
+					solverBoard = (Board) board.clone();
+				} catch (CloneNotSupportedException e) {
+					// TODO Auto-generated catch block
+					e.printStackTrace();
+					solverThread = null;
+					return;
+				}
+				// TODO: progressMeter/-Bar
+				System.out.println("running SolverThread...");
+				IterativeSolver solver = new IterativeSolver(solverBoard);
+				solver.doSolve();
+				
+				setBestMove(solverBoard.bestResult, solverBoard.bestMove);
+			}
+		};
+
+		// TODOcheck if we have to stop?
+		//solverThread.stop();
+		solverThread.start();
+	}
+
+	// TODO: check synchronization!
+	synchronized protected void setBestMove(int bestResult, Move bestMove) {
+		board.bestResult = bestResult;
+		board.bestMove = bestMove;
+		// invalidate();
+		repaint();
 	}
 
 	public void mouseEntered(MouseEvent e) {
