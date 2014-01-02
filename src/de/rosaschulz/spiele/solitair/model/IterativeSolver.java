@@ -21,8 +21,8 @@ public class IterativeSolver extends ProgressReportingSolver {
 		board=board2;
 		solution = new MoveHistory();
 		
-		checkedLineUpIdsLastMove = GeneralField.FIELD_COUNT - 5;
-		checkedLineUpIdsCleanDepth = 8;
+		checkedLineUpIdsLastMove = 29; // GeneralField.FIELD_COUNT - 5;
+		checkedLineUpIdsCleanDepth = 20;
 		
 		checkedLineUpIds = new Vector<>(checkedLineUpIdsLastMove);
 		for (int i = 0; i <= checkedLineUpIdsLastMove; i++) {
@@ -78,7 +78,7 @@ public class IterativeSolver extends ProgressReportingSolver {
 		if (currentPossibleMoves.size() == 0) {
 			bestRating = board.getRanking(); //countSteine();
 		} else {
-			progress=progressStart;
+			double myProgress=progressStart;
 			double progressStep=(progressEnd-progressStart)/currentPossibleMoves.size();
 			for (Iterator<Move> iter = currentPossibleMoves.iterator(); iter.hasNext();) {
 				Move move = iter.next();
@@ -97,7 +97,7 @@ public class IterativeSolver extends ProgressReportingSolver {
 				}
 				
 				if( solveThisBoard ) {
-					int lastRating = solve(progress, progress+progressStep);
+					int lastRating = solve(myProgress, myProgress+progressStep);
 					if (lastRating < bestRating) {
 						bestRating = lastRating;
 					}
@@ -111,8 +111,7 @@ public class IterativeSolver extends ProgressReportingSolver {
 				board.undoMove();
 				
 				stepCounter++;
-				progress+=progressStep;
-				
+				progress = myProgress += progressStep;
 
 //				for (int i = 0; i < checkedLineUpIdsLastMove; i++) {
 //					checkedLineUpIds.setElementAt(new TreeSet<Long>(), i);
