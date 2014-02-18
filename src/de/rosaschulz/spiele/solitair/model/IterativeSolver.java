@@ -21,8 +21,10 @@ public class IterativeSolver extends ProgressReportingSolver {
 		board=board2;
 		solution = new MoveHistory();
 		
-		checkedLineUpIdsLastMove = 29; // GeneralField.FIELD_COUNT - 5;
-		checkedLineUpIdsCleanDepth = 20;
+		int noLineUpCheckingForLastXMoves = 2;
+		checkedLineUpIdsLastMove = 31-noLineUpCheckingForLastXMoves; // GeneralField.FIELD_COUNT - 5;
+//		checkedLineUpIdsCleanDepth = 20;
+		checkedLineUpIdsCleanDepth = checkedLineUpIdsLastMove;
 		
 		checkedLineUpIds = new Vector<>(checkedLineUpIdsLastMove);
 		for (int i = 0; i <= checkedLineUpIdsLastMove; i++) {
